@@ -21,6 +21,9 @@ public class BattleStateMachine : MonoBehaviour
     public List<GameObject> heroesInBattle = new List<GameObject>();
     public List<GameObject> enemiesInBattle = new List<GameObject>();
 
+    // List of heroes ready for input
+    public List<GameObject> heroesToManage = new List<GameObject>();
+
     private void Awake()
     {
         
@@ -32,7 +35,7 @@ public class BattleStateMachine : MonoBehaviour
         battleState = BattleState.Available;
 
         // Find heroes and enemies in the scene with tags. Later we can replace these by reading the information from the GameManager during Awake().
-        enemiesInBattle.AddRange(GameObject.FindGameObjectsWithTag("Enemy"));
+        enemiesInBattle.AddRange(GameObject.FindGameObjectsWithTag("Unit"));
         heroesInBattle.AddRange(GameObject.FindGameObjectsWithTag("Hero"));
     }
 
@@ -63,19 +66,35 @@ public class BattleStateMachine : MonoBehaviour
 
             case (BattleState.VictoryCheck):
 
-
+                if (heroesInBattle.Count < 1) {
+                    battleState = BattleState.Lose;
+                }
+                else if (enemiesInBattle.Count < 1) {
+                    battleState = BattleState.Win;
+                }
+                else {
+                    // Refresh the HeroGUI.
+                }
 
                 break;
 
             case (BattleState.Win):
 
+                Debug.Log("You won the battle.");
 
+                // Set heroes to idle.
+                for (int i = 0; i < heroesInBattle.Count; i++)
+                {
+                    heroesInBattle[i].GetComponent<HeroStateMachine>().turnState = HeroStateMachine.TurnState.Idle;
+                }
+
+                // Reset scene to world state.
 
                 break;
 
             case (BattleState.Lose):
 
-
+                Debug.Log("You lost the battle.");
 
                 break;
 
@@ -89,37 +108,17 @@ public class BattleStateMachine : MonoBehaviour
 
     private void ExecuteAction()
     {
+        // Get the performer's gameObject and script.
         GameObject performer = actionQueue[0].attackerGameObject;
+        BaseStateMachine unitSM = performer.GetComponent<BaseStateMachine>();
 
-        if (performer.CompareTag("Enemy"))
-        {
-            EnemyStateMachine ESM = performer.GetComponent<EnemyStateMachine>();
+        // Pass the target for the performer's Acting phase.
+        unitSM.attackTarget = actionQueue[0].attackTarget;
 
-            // Pass the target for the performer's Acting phase.
-            ESM.attackTarget = actionQueue[0].attackTarget;
-
-            // Set the performer's state to Acting and self to Idle.
-            ESM.turnState = EnemyStateMachine.TurnState.Acting;
-            battleState = BattleState.Idle;
-        }
-        else if (performer.CompareTag("Hero"))
-        {
-            HeroStateMachine HSM = performer.GetComponent<HeroStateMachine>();
-
-            // We could add a check here to redirect a hero's attack on the actionQueue if its target is now dead.
-
-            // Pass the target for the performer's Acting phase.
-            HSM.attackTarget = actionQueue[0].attackTarget;
-
-            // Set the performer's state to Acting and self to Idle.
-            HSM.turnState = HeroStateMachine.TurnState.Acting;
-            battleState = BattleState.Idle;
-        }
-        else
-        {
-            Debug.Log("Error: Couldn't find the attacker. Removing the attack from queue.");
-            actionQueue.RemoveAt(0);
-            battleState = BattleState.Available;
-        }
+        // Set the performer's state to Acting and self to Idle.
+        unitSM.turnState = BaseStateMachine.TurnState.Acting;
+        battleState = BattleState.Idle;
+      
+        // We could add a check here to redirect a hero's attack on the actionQueue if its target is now dead.
     }
 }

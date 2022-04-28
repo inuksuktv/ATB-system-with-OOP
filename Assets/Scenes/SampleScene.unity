@@ -503,6 +503,7 @@ MonoBehaviour:
   actionQueue: []
   heroesInBattle: []
   enemiesInBattle: []
+  heroesToManage: []
 --- !u!4 &1356465081
 Transform:
   m_ObjectHideFlags: 0

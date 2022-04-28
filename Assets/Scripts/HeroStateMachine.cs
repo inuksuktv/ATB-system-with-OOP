@@ -2,54 +2,54 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HeroStateMachine : BaseUnit
+public class HeroStateMachine : BaseStateMachine
 {
-    private BattleStateMachine BSM;
-
-    // Hero turn states
-    public enum TurnState
-    {
-        Preparing,
-        Choosing,
-        Idle,
-        Acting,
-        Dead
-    }
-    public TurnState turnState;
-
-    // For the preparing phase
-    private float elapsedCooldown = 0f;
-    private float turnCooldown = 5f;
-
-    // For the acting phase
-    private bool actionStarted = false;
-    private float animationSpeed = 15f;
-    private Vector3 startPosition;
-    public GameObject attackTarget;
-
-    // Alive check
-    private bool alive = true;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    // Add the object for the HeroGUI state machine to manage.
+    public override void ChooseAction() {
+        BSM.heroesToManage.Add(gameObject);
     }
 
-    // Update is called once per frame
-    void Update()
+    public override void DieAndCleanup()
     {
-        
-    }
+        if (!alive) { return; }
+        else {
+            // Change the unit's tag
+            gameObject.tag = "DeadHero";
 
-    public void TakeDamage(float damageAmount)
-    {
-        currentHP -= damageAmount;
-        if (currentHP <= 0)
-        {
-            currentHP = 0;
-            turnState = TurnState.Dead;
+            // Remove this object from the enemiesInBattle list. Used for VictoryCheck and to pick attackTarget among others.
+            BSM.heroesInBattle.Remove(gameObject);
+
+            // Disable selector.
+            selector.SetActive(false);
+
+            // Change the color to grey (or play death animations?).
+            gameObject.GetComponent<MeshRenderer>().material.color = new Color32(105, 105, 105, 255);
+
+            // Clean up the actionQueue.
+            if (BSM.heroesInBattle.Count > 0)
+            {
+                // Skipping i=0 because TimeForAction() is removing the first object in the actionQueue.
+                // Shouldn't this throw an exception if actionQueue.Count is small?
+                for (int i = 1; i < BSM.actionQueue.Count; i++)
+                {
+                    // Remove any action where this object is the attacker from the queue. 
+                    // I decided to keep enemies targeting dead heroes, not removing an action if this object was the target.
+                    if (BSM.actionQueue[i].attackerGameObject == gameObject)
+                    {
+                        BSM.actionQueue.Remove(BSM.actionQueue[i]);
+                    }
+                }
+            }
+
+            // Set alive false
+            alive = false;
+
+            // Reset enemyButtons for the target panel.
+            // We may take a different approach with buttons here so this line will likely change.
+            //BSM.EnemyButtons();
+
+            //Check if battle is won or lost
+            BSM.battleState = BattleStateMachine.BattleState.VictoryCheck;
         }
-        //UpdateHeroPanel();
     }
 }

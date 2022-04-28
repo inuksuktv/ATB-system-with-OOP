@@ -5,9 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Hero
-  - Enemy
   - DeadHero
-  - DeadEnemy
+  - DeadUnit
+  - Unit
   layers:
   - Default
   - TransparentFX
