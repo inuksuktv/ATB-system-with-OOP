@@ -42,7 +42,7 @@ public class BattleStateMachine : MonoBehaviour
         {
             case (BattleState.Available):
 
-                // Test if there is action queued up.
+                // Change to OrderAction if there is an action to perform.
                 if (actionQueue.Count > 0)
                 {
                     battleState = BattleState.OrderAction;
@@ -52,27 +52,40 @@ public class BattleStateMachine : MonoBehaviour
 
             case (BattleState.OrderAction):
 
-                // Check if the performer is a hero or enemy so we can get its script and set it to act.
+                // Check if the performer is a hero or enemy so we can get its script and set it to act. Set the performer to Acting then change self to Idle.
                 GameObject performer = actionQueue[0].attackerGameObject;
 
                 if (performer.CompareTag("Enemy"))
                 {
-                    // Set the performer's state to Acting.
                     EnemyStateMachine ESM = performer.GetComponent<EnemyStateMachine>();
+
+                    // Pass the target for the performer's Acting phase.
+                    ESM.attackTarget = actionQueue[0].attackTarget;
+
+                    // Set the performer's state to Acting.
                     ESM.turnState = EnemyStateMachine.TurnState.Acting;
                 }
                 else if (performer.CompareTag("Hero"))
                 {
-                    // We could add a check here to redirect a hero's attack if its target is now dead
+                    HeroStateMachine HSM = performer.GetComponent<HeroStateMachine>();
+
+                    // We could add a check here to redirect a hero's attack on the actionQueue if its target is now dead.
+
+                    // Pass the target for the performer's Acting phase.
+                    HSM.attackTarget = actionQueue[0].attackTarget;
 
                     // Set the performer's state to Acting.
-                    HeroStateMachine HSM = performer.GetComponent<HeroStateMachine>();
                     HSM.turnState = HeroStateMachine.TurnState.Acting;
                 }
                 else
                 {
-                    Debug.Log("Error: Couldn't find the attacker.");
+                    Debug.Log("Error: Couldn't find the attacker. Removing the attack from queue.");
+                    actionQueue.RemoveAt(0);
+                    battleState = BattleState.Available;
+                    break;
                 }
+
+                battleState = BattleState.Idle;
 
                 break;
 

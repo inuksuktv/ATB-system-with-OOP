@@ -23,9 +23,9 @@ public class EnemyStateMachine : BaseUnit
 
     // For the acting phase
     private bool actionStarted = false;
-    private float animationSpeed = 15f;
+    private float animationSpeed = 20f;
     private Vector3 startPosition;
-    public GameObject objectToAttack;
+    public GameObject attackTarget;
 
     // Alive check
     private bool alive = true;
@@ -46,14 +46,14 @@ public class EnemyStateMachine : BaseUnit
         {
             case (TurnState.Preparing):
 
-                // Count up to the turnCooldown then Choosing
+                // Count up to the turnCooldown then set Choosing.
                 PrepareCooldown();
 
                 break;
 
             case (TurnState.Choosing):
 
-                // If there's a hero, choose an action
+                // If there's a hero, choose an action and put it in the actionQueue.
                 if (BSM.heroesInBattle.Count > 0)
                 {
                     ChooseAction();
@@ -65,13 +65,13 @@ public class EnemyStateMachine : BaseUnit
 
             case (TurnState.Idle):
 
-                // Wait for your turn in the action queue
+                // Wait for your turn in the actionQueue.
 
                 break;
 
             case (TurnState.Acting):
 
-                // It's your time in the spotlight! Move the enemy and deal damage to the target. Tell the BSM when you're done moving and reset the enemy.
+                // It's your time in the spotlight! Move and deal damage to the target. Tell the BSM when you're done moving and reset the enemy.
                 StartCoroutine(TimeForAction());
                 break;
 
@@ -120,20 +120,45 @@ public class EnemyStateMachine : BaseUnit
             yield break;
         }
 
-        // Move the attacker near the target to attack.
+        actionStarted = true;
+
+        // Move the attacker near the target to attack. Hold the coroutine until movement finishes.
+        Vector3 position = new Vector3(attackTarget.transform.position.x, transform.position.y, attackTarget.transform.position.z + 4f);
+        while (MovingTo(position)) { yield return null; }
 
         // Do damage
+        AttackHandler myAttack = BSM.actionQueue[0];
+        DoDamage(myAttack);
 
         // Wait a bit.
-        
-        // Move the attacker back to its starting position.
+        yield return new WaitForSeconds(0.5f);
 
-        // Remove this performer from the list in BSM.
+        // Move the attacker back to its starting position. Hold the coroutine until movement finishes.
+        Vector3 readyPosition = startPosition;
+        while (MovingTo(readyPosition)) { yield return null; }
+
+        // Remove this performer's attack from the list in BSM.
+        BSM.actionQueue.RemoveAt(0);
 
         // Set the BSM's state to Available.
+        BSM.battleState = BattleStateMachine.BattleState.Available;
 
-        // Set actionStarted false so the Coroutine breaks on the next frame
+        // Set actionStarted false so the Coroutine doesn't break next time it's called.
+        actionStarted = false;
 
         // Reset this enemy's state
+        elapsedCooldown = 0f;
+        turnState = TurnState.Preparing;
+    }
+
+    private bool MovingTo(Vector3 target)
+    {
+        return target != (transform.position = Vector3.MoveTowards(transform.position, target, animationSpeed * Time.deltaTime));
+    }
+
+    private void DoDamage(AttackHandler myAttack)
+    {
+        float calcDamage = currentATK + myAttack.chosenAttack.attackDamage;
+        attackTarget.GetComponent<HeroStateMachine>().TakeDamage(calcDamage);
     }
 }

@@ -25,7 +25,7 @@ public class HeroStateMachine : BaseUnit
     private bool actionStarted = false;
     private float animationSpeed = 15f;
     private Vector3 startPosition;
-    public GameObject objectToAttack;
+    public GameObject attackTarget;
 
     // Alive check
     private bool alive = true;
@@ -40,5 +40,16 @@ public class HeroStateMachine : BaseUnit
     void Update()
     {
         
+    }
+
+    public void TakeDamage(float damageAmount)
+    {
+        currentHP -= damageAmount;
+        if (currentHP <= 0)
+        {
+            currentHP = 0;
+            turnState = TurnState.Dead;
+        }
+        //UpdateHeroPanel();
     }
 }
