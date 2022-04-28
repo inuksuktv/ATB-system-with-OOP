@@ -52,46 +52,12 @@ public class BattleStateMachine : MonoBehaviour
 
             case (BattleState.OrderAction):
 
-                // Check if the performer is a hero or enemy so we can get its script and set it to act. Set the performer to Acting then change self to Idle.
-                GameObject performer = actionQueue[0].attackerGameObject;
-
-                if (performer.CompareTag("Enemy"))
-                {
-                    EnemyStateMachine ESM = performer.GetComponent<EnemyStateMachine>();
-
-                    // Pass the target for the performer's Acting phase.
-                    ESM.attackTarget = actionQueue[0].attackTarget;
-
-                    // Set the performer's state to Acting.
-                    ESM.turnState = EnemyStateMachine.TurnState.Acting;
-                }
-                else if (performer.CompareTag("Hero"))
-                {
-                    HeroStateMachine HSM = performer.GetComponent<HeroStateMachine>();
-
-                    // We could add a check here to redirect a hero's attack on the actionQueue if its target is now dead.
-
-                    // Pass the target for the performer's Acting phase.
-                    HSM.attackTarget = actionQueue[0].attackTarget;
-
-                    // Set the performer's state to Acting.
-                    HSM.turnState = HeroStateMachine.TurnState.Acting;
-                }
-                else
-                {
-                    Debug.Log("Error: Couldn't find the attacker. Removing the attack from queue.");
-                    actionQueue.RemoveAt(0);
-                    battleState = BattleState.Available;
-                    break;
-                }
-
-                battleState = BattleState.Idle;
+                // Get the performer's script from the front of the queue and tell it to act. Set performer to Acting and self to Idle.
+                ExecuteAction();
 
                 break;
 
             case (BattleState.Idle):
-
-
 
                 break;
 
@@ -119,5 +85,41 @@ public class BattleStateMachine : MonoBehaviour
     public void CollectAction(AttackHandler input)
     {
         actionQueue.Add(input);
+    }
+
+    private void ExecuteAction()
+    {
+        GameObject performer = actionQueue[0].attackerGameObject;
+
+        if (performer.CompareTag("Enemy"))
+        {
+            EnemyStateMachine ESM = performer.GetComponent<EnemyStateMachine>();
+
+            // Pass the target for the performer's Acting phase.
+            ESM.attackTarget = actionQueue[0].attackTarget;
+
+            // Set the performer's state to Acting and self to Idle.
+            ESM.turnState = EnemyStateMachine.TurnState.Acting;
+            battleState = BattleState.Idle;
+        }
+        else if (performer.CompareTag("Hero"))
+        {
+            HeroStateMachine HSM = performer.GetComponent<HeroStateMachine>();
+
+            // We could add a check here to redirect a hero's attack on the actionQueue if its target is now dead.
+
+            // Pass the target for the performer's Acting phase.
+            HSM.attackTarget = actionQueue[0].attackTarget;
+
+            // Set the performer's state to Acting and self to Idle.
+            HSM.turnState = HeroStateMachine.TurnState.Acting;
+            battleState = BattleState.Idle;
+        }
+        else
+        {
+            Debug.Log("Error: Couldn't find the attacker. Removing the attack from queue.");
+            actionQueue.RemoveAt(0);
+            battleState = BattleState.Available;
+        }
     }
 }

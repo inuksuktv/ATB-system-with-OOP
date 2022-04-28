@@ -6,7 +6,7 @@ public class EnemyStateMachine : BaseUnit
 {
     private BattleStateMachine BSM;
 
-    // Enemy turn states
+    // Turn states to control the state machine.
     public enum TurnState
     {
         Preparing,
@@ -59,7 +59,7 @@ public class EnemyStateMachine : BaseUnit
                     ChooseAction();
                 }
 
-                // Wait for your action to come to the front of the queue.
+                // WSet Idle and wait for your action to come to the front of the queue.
                 turnState = TurnState.Idle;
                 break;
 
@@ -84,32 +84,14 @@ public class EnemyStateMachine : BaseUnit
         }
     }
 
-    private void PrepareCooldown()
+    public void TakeDamage(float damageAmount)
     {
-        // Record the time since this unit starting preparing.
-        elapsedCooldown += Time.deltaTime;
-
-        // If this unit's been preparing long enough, choose an action.
-        if (elapsedCooldown >= turnCooldown)
+        currentHP -= damageAmount;
+        if (currentHP <= 0)
         {
-            turnState = TurnState.Choosing;
+            currentHP = 0;
+            turnState = TurnState.Dead;
         }
-    }
-
-    private void ChooseAction()
-    {
-        // Populate AttackHandler's fields with this object's name, gameObject, and target
-        AttackHandler myAttack = new AttackHandler();
-        myAttack.attackerName = unitName;
-        myAttack.attackerGameObject = gameObject;
-        myAttack.attackTarget = BSM.heroesInBattle[Random.Range(0, BSM.heroesInBattle.Count)];
-
-        // Pick a BaseAttack from this enemy's attackList
-        int num = Random.Range(0, attackList.Count);
-        myAttack.chosenAttack = attackList[num];
-
-        // Tell the BSM to add myAttack to the actionQueue.
-        BSM.CollectAction(myAttack);
     }
 
     private IEnumerator TimeForAction()
@@ -151,14 +133,42 @@ public class EnemyStateMachine : BaseUnit
         turnState = TurnState.Preparing;
     }
 
-    private bool MovingTo(Vector3 target)
+    private void ChooseAction()
     {
-        return target != (transform.position = Vector3.MoveTowards(transform.position, target, animationSpeed * Time.deltaTime));
+        // Populate AttackHandler's fields with this object's name, gameObject, and target
+        AttackHandler myAttack = new AttackHandler();
+        myAttack.attackerName = unitName;
+        myAttack.attackerGameObject = gameObject;
+        myAttack.attackTarget = BSM.heroesInBattle[Random.Range(0, BSM.heroesInBattle.Count)];
+
+        // Pick a BaseAttack from this enemy's attackList
+        int num = Random.Range(0, attackList.Count);
+        myAttack.chosenAttack = attackList[num];
+
+        // Tell the BSM to add myAttack to the actionQueue.
+        BSM.CollectAction(myAttack);
     }
 
     private void DoDamage(AttackHandler myAttack)
     {
         float calcDamage = currentATK + myAttack.chosenAttack.attackDamage;
         attackTarget.GetComponent<HeroStateMachine>().TakeDamage(calcDamage);
+    }
+
+    private bool MovingTo(Vector3 target)
+    {
+        return target != (transform.position = Vector3.MoveTowards(transform.position, target, animationSpeed * Time.deltaTime));
+    }
+
+    private void PrepareCooldown()
+    {
+        // Record the time since this unit starting preparing.
+        elapsedCooldown += Time.deltaTime;
+
+        // If this unit's been preparing long enough, choose an action.
+        if (elapsedCooldown >= turnCooldown)
+        {
+            turnState = TurnState.Choosing;
+        }
     }
 }
