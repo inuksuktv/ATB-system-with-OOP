@@ -4,6 +4,16 @@ using UnityEngine;
 
 public class HeroStateMachine : BaseStateMachine
 {
+    public override void PrepareCooldown()
+    {
+        base.PrepareCooldown();
+
+        // Set the progressBar transform to scale based on the cooldown to produce the ATB GUI.
+        // We don't have a progressBar with the current design.
+        //float calcCooldown = elapsedCooldown / turnCooldown;
+        //progressBar.transform.localScale = new Vector3(Mathf.Clamp(calcCooldown, 0, 1), progressBar.transform.localScale.y, progressBar.transform.localScale.z);
+    }
+
     // Add the object for the HeroGUI state machine to manage.
     public override void ChooseAction() {
         BSM.heroesToManage.Add(gameObject);

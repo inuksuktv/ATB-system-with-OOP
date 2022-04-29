@@ -18,8 +18,8 @@ public class BaseStateMachine : BaseUnit
     public TurnState turnState;
 
     // For the preparing phase
-    private float elapsedCooldown = 0f;
-    private float turnCooldown = 5f;
+    protected float elapsedCooldown = 0f;
+    protected float turnCooldown = 5f;
 
     // For the acting phase
     private bool actionStarted = false;
@@ -58,14 +58,12 @@ public class BaseStateMachine : BaseUnit
 
                 // If there's a hero, choose an action and put it in the actionQueue.
                 ChooseAction();
-
-                // Set Idle and wait for your action to come to the front of the queue.
-                turnState = TurnState.Idle;
                 break;
 
             case (TurnState.Idle):
 
                 // Wait for your turn in the actionQueue.
+
                 break;
 
             case (TurnState.Acting):
@@ -99,6 +97,9 @@ public class BaseStateMachine : BaseUnit
 
             // Tell the BSM to add myAttack to the actionQueue.
             BSM.CollectAction(myAttack);
+
+            // Set Idle and wait for your action to come to the front of the queue.
+            turnState = TurnState.Idle;
         }
     }
 
