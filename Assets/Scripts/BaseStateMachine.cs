@@ -87,13 +87,13 @@ public class BaseStateMachine : BaseUnit
     {
         if (BSM.heroesInBattle.Count > 0)
         {
-            // Populate AttackHandler's fields with this object's name, gameObject, and target
+            // Populate myAttack's fields with this object's name, gameObject, and target.
             AttackHandler myAttack = new AttackHandler();
             myAttack.attackerName = unitName;
             myAttack.attackerGameObject = gameObject;
             myAttack.attackTarget = BSM.heroesInBattle[Random.Range(0, BSM.heroesInBattle.Count)];
 
-            // Pick a BaseAttack from this enemy's attackList
+            // Pick a BaseAttack from this object's attackList.
             int num = Random.Range(0, attackList.Count);
             myAttack.chosenAttack = attackList[num];
 
@@ -190,7 +190,7 @@ public class BaseStateMachine : BaseUnit
         actionStarted = true;
 
         // Move the attacker near the target to attack. Yield the coroutine until movement finishes.
-        Vector3 position = new Vector3(attackTarget.transform.position.x, transform.position.y, attackTarget.transform.position.z + 4f);
+        Vector3 position = new Vector3(attackTarget.transform.position.x, transform.position.y, attackTarget.transform.position.z + 3f);
         while (MovingTo(position)) { yield return null; }
 
         // Load myAttack from the actionQueue and DoDamage.
