@@ -80,13 +80,13 @@ public class BattleStateMachine : MonoBehaviour
 
             case (BattleState.Win):
 
-                Debug.Log("You won the battle.");
-
                 // Set heroes to idle.
                 for (int i = 0; i < heroesInBattle.Count; i++)
                 {
                     heroesInBattle[i].GetComponent<HeroStateMachine>().turnState = HeroStateMachine.TurnState.Idle;
                 }
+
+                Debug.Log("You won the battle.");
 
                 // Reset scene to world state.
 

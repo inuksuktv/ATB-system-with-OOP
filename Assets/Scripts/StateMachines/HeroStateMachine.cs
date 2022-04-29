@@ -9,6 +9,8 @@ public class HeroStateMachine : BaseStateMachine
         BSM.heroesToManage.Add(gameObject);
     }
 
+    // Return if the unit's already died and cleaned up.
+    // Change the tag, remove from BSM lists, deactivate selector, change colour, repopulate target buttons, set CheckVictory.
     public override void DieAndCleanup()
     {
         if (!alive) { return; }
@@ -16,7 +18,7 @@ public class HeroStateMachine : BaseStateMachine
             // Change the unit's tag
             gameObject.tag = "DeadHero";
 
-            // Remove this object from the enemiesInBattle list. Used for VictoryCheck and to pick attackTarget among others.
+            // Remove this object from the heroesInBattle list. Used for VictoryCheck and to pick attackTarget among others.
             BSM.heroesInBattle.Remove(gameObject);
 
             // Disable selector.
