@@ -25,7 +25,8 @@ public class BattleStateMachine : MonoBehaviour
     // HeroGUI handler states
     public enum HeroGUI
     {
-        Activated,
+        Available,
+        Targeting,
         Idle,
         Done
     }
@@ -36,6 +37,8 @@ public class BattleStateMachine : MonoBehaviour
     private AttackHandler heroChoice;
 
     // GUI objects.
+    private GameObject activeHero;
+    private GameObject activePanel;
     [SerializeField] private GameObject heroPanelPrefab;
     [SerializeField] private RectTransform battleCanvas;
     private RectTransform heroPanelTra;
@@ -122,9 +125,9 @@ public class BattleStateMachine : MonoBehaviour
             case (BattleState.Win):
 
                 // Set heroes to idle.
-                for (int i = 0; i < heroesInBattle.Count; i++)
+                foreach (GameObject hero in heroesInBattle)
                 {
-                    heroesInBattle[i].GetComponent<HeroStateMachine>().turnState = HeroStateMachine.TurnState.Idle;
+                    hero.GetComponent<HeroStateMachine>().turnState = HeroStateMachine.TurnState.Idle;
                 }
 
                 Debug.Log("You won the battle.");
@@ -143,31 +146,41 @@ public class BattleStateMachine : MonoBehaviour
         // Update the GUI handler
         switch (heroInput)
         {
-            case (HeroGUI.Activated):
+            case (HeroGUI.Available):
 
                 if (heroesToManage.Count > 0)
                 {
-                    heroesToManage[0].transform.Find("Selector").gameObject.SetActive(true);
-                    heroChoice = new AttackHandler();
+                    activeHero = heroesToManage[0];
+                    activeHero.transform.Find("Selector").gameObject.SetActive(true);
 
                     // Prepare the hero's input panel. We've already created it, so find the right children buttons and give them listeners to fill in some of heroChoice.
-                    GameObject panel = battleCanvas.transform.Find(heroesToManage[0].name + "Panel").gameObject;
-                    panel.SetActive(true);
+                    activePanel = battleCanvas.transform.Find(activeHero.name + "Panel").gameObject;
+                    activePanel.SetActive(true);
 
                     // Find the buttons.
-                    GameObject upArrow = panel.transform.Find("ArrowUp").gameObject;
-                    GameObject leftArrow = panel.transform.Find("ArrowLeft").gameObject;
-                    GameObject rightArrow = panel.transform.Find("ArrowRight").gameObject;
-                    GameObject downArrow = panel.transform.Find("ArrowDown").gameObject;
+                    GameObject upArrow = activePanel.transform.Find("ArrowUp").gameObject;
+                    GameObject leftArrow = activePanel.transform.Find("ArrowLeft").gameObject;
+                    GameObject rightArrow = activePanel.transform.Find("ArrowRight").gameObject;
+                    GameObject downArrow = activePanel.transform.Find("ArrowDown").gameObject;
 
                     // Add a listener to each button component.
-                    upArrow.GetComponent<Button>().onClick.AddListener(() => Input1(upArrow.name));
-                    leftArrow.GetComponent<Button>().onClick.AddListener(() => Input1(leftArrow.name));
-                    rightArrow.GetComponent<Button>().onClick.AddListener(() => Input1(rightArrow.name));
-                    downArrow.GetComponent<Button>().onClick.AddListener(() => Input1(downArrow.name));
+                    upArrow.GetComponent<Button>().onClick.AddListener(() => Input1(activeHero));
+                    leftArrow.GetComponent<Button>().onClick.AddListener(() => Input1(activeHero));
+                    rightArrow.GetComponent<Button>().onClick.AddListener(() => Input1(activeHero));
+                    downArrow.GetComponent<Button>().onClick.AddListener(() => Input1(activeHero));
 
+                    // Wait for the player's input.
                     heroInput = HeroGUI.Idle;
                 }
+
+                break;
+
+            case (HeroGUI.Targeting):
+
+                // Taking the player's input will have to wait until another round of GUI coding, but we'll pick one at random for now.
+                heroChoice.attackTarget = enemiesInBattle[Random.Range(0, enemiesInBattle.Count)];
+
+                heroInput = HeroGUI.Done;
 
                 break;
 
@@ -179,7 +192,16 @@ public class BattleStateMachine : MonoBehaviour
 
             case (HeroGUI.Done):
 
+                // Send the action to the battle logic.
+                CollectAction(heroChoice);
 
+                // Clear the GUI.
+                activePanel.SetActive(false);
+
+                // Disable the selector, remove the hero from the GUI list, and initialize the GUI.
+                activeHero.transform.Find("Selector").gameObject.SetActive(false);
+                heroesToManage.RemoveAt(0);
+                heroInput = HeroGUI.Available;
 
                 break;
 
@@ -207,8 +229,18 @@ public class BattleStateMachine : MonoBehaviour
         // We could add a check here to redirect a hero's attack on the actionQueue if its target is now dead.
     }
 
-    private void Input1(string str)
+    private void Input1(GameObject obj)
     {
-        Debug.Log(heroesToManage[0] + " clicked " + str);
+        BaseStateMachine bsm = obj.GetComponent<BaseStateMachine>();
+
+        heroChoice = new AttackHandler();
+
+        // Fill what fields we can for heroAttack here. Buttons will probably have a BaseAttack attached to them at Start().
+        heroChoice.attackerName = bsm.unitName;
+        heroChoice.chosenAttack = bsm.attackList[0];
+        heroChoice.attackerGameObject = obj;
+
+        // All that's left is to fill in the target and send the action to the battle logic.   
+        heroInput = HeroGUI.Targeting;
     }
 }

@@ -15,8 +15,10 @@ public class HeroStateMachine : BaseStateMachine
     }
 
     // Add the object for the HeroGUI state machine to manage.
-    public override void ChooseAction() {
+    public override void ChooseAction()
+    {
         BSM.heroesToManage.Add(gameObject);
+        turnState = TurnState.Idle;
     }
 
     // Return if the unit's already died and cleaned up.
