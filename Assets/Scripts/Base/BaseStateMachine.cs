@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class BaseStateMachine : BaseUnit
+public class BaseStateMachine : BaseUnit, IPointerClickHandler
 {
     protected BattleStateMachine BSM;
 
@@ -18,13 +19,13 @@ public class BaseStateMachine : BaseUnit
     public TurnState turnState;
 
     // For the preparing phase
-    private float elapsedCooldown = 0f;
-    private float turnCooldown = 5f;
+    protected float elapsedCooldown = 0f;
+    protected float turnCooldown = 5f;
 
     // For the acting phase
-    private bool actionStarted = false;
+    protected bool actionStarted = false;
     private float animationSpeed = 20f;
-    private Vector3 startPosition;
+    protected Vector3 startPosition;
     public GameObject attackTarget;
 
     // GUI
@@ -33,6 +34,20 @@ public class BaseStateMachine : BaseUnit
     // Alive check
     protected bool alive = true;
 
+    void OnMouseOver()
+    {
+        if (BSM.isSelecting) { Debug.Log("Mouse is over " + gameObject.name); }
+    }
+
+    void OnMouseExit()
+    {
+        if (BSM.isSelecting) { Debug.Log("Mouse is no longer over " + gameObject.name); }
+    }
+
+    void IPointerClickHandler.OnPointerClick(PointerEventData eventData)
+    {
+        if (BSM.isSelecting) { BSM.Input2(gameObject); }
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -58,14 +73,12 @@ public class BaseStateMachine : BaseUnit
 
                 // If there's a hero, choose an action and put it in the actionQueue.
                 ChooseAction();
-
-                // Set Idle and wait for your action to come to the front of the queue.
-                turnState = TurnState.Idle;
                 break;
 
             case (TurnState.Idle):
 
                 // Wait for your turn in the actionQueue.
+
                 break;
 
             case (TurnState.Acting):
@@ -99,6 +112,9 @@ public class BaseStateMachine : BaseUnit
 
             // Tell the BSM to add myAttack to the actionQueue.
             BSM.CollectAction(myAttack);
+
+            // Set Idle and wait for your action to come to the front of the queue.
+            turnState = TurnState.Idle;
         }
     }
 
@@ -189,9 +205,9 @@ public class BaseStateMachine : BaseUnit
 
         actionStarted = true;
 
-        // Move the attacker near the target to attack. Yield the coroutine until movement finishes.
-        Vector3 position = new Vector3(attackTarget.transform.position.x, transform.position.y, attackTarget.transform.position.z + 3f);
-        while (MovingTo(position)) { yield return null; }
+        // Move the attacker until it's close to the target.
+        Vector3 heroPosition = new Vector3(attackTarget.transform.position.x, transform.position.y, attackTarget.transform.position.z + 3f);
+        while (MoveTowards(heroPosition)) { yield return null; }
 
         // Load myAttack from the actionQueue and DoDamage.
         AttackHandler myAttack = BSM.actionQueue[0];
@@ -201,8 +217,8 @@ public class BaseStateMachine : BaseUnit
         yield return new WaitForSeconds(0.5f);
 
         // Move the attacker back to its starting position. Hold the coroutine until movement finishes.
-        Vector3 readyPosition = startPosition;
-        while (MovingTo(readyPosition)) { yield return null; }
+        Vector3 firstPosition = startPosition;
+        while (MoveTowards(firstPosition)) { yield return null; }
 
         // Remove this performer's attack from the list in BSM.
         BSM.actionQueue.RemoveAt(0);
@@ -210,15 +226,15 @@ public class BaseStateMachine : BaseUnit
         // Set the BSM's state to Available.
         BSM.battleState = BattleStateMachine.BattleState.Available;
 
-        // Set actionStarted false so the Coroutine doesn't break next time it's called.
+        // Set actionStarted false to initialize the coroutine.
         actionStarted = false;
 
-        // Reset this enemy's state
+        // Reset this object's state
         elapsedCooldown = 0f;
         turnState = TurnState.Preparing;
     }
 
-    private bool MovingTo(Vector3 target)
+    public virtual bool MoveTowards(Vector3 target)
     {
         return target != (transform.position = Vector3.MoveTowards(transform.position, target, animationSpeed * Time.deltaTime));
     }

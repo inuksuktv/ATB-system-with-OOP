@@ -10,9 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1719030023069823346}
   - component: {fileID: 7220670733304370788}
-  - component: {fileID: -2290468659489794209}
   m_Layer: 0
-  m_Name: PunchAbility
+  m_Name: Punch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33,21 +32,6 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7220670733304370788
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7761534389432259535}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81caf006289c82f43bedc61937a40981, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attackName: Punch
-  attackDescription: A solid thunk.
-  attackDamage: 15
---- !u!114 &-2290468659489794209
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

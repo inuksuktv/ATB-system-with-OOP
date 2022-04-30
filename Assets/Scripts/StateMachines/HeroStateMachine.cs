@@ -4,11 +4,25 @@ using UnityEngine;
 
 public class HeroStateMachine : BaseStateMachine
 {
-    // Add the object for the HeroGUI state machine to manage.
-    public override void ChooseAction() {
-        BSM.heroesToManage.Add(gameObject);
+    public override void PrepareCooldown()
+    {
+        base.PrepareCooldown();
+
+        // Set the progressBar transform to scale based on the cooldown to produce the ATB GUI.
+        // We don't have a progressBar with the current design.
+        //float calcCooldown = elapsedCooldown / turnCooldown;
+        //progressBar.transform.localScale = new Vector3(Mathf.Clamp(calcCooldown, 0, 1), progressBar.transform.localScale.y, progressBar.transform.localScale.z);
     }
 
+    // Add the object for the HeroGUI state machine to manage.
+    public override void ChooseAction()
+    {
+        BSM.heroesToManage.Add(gameObject);
+        turnState = TurnState.Idle;
+    }
+
+    // Return if the unit's already died and cleaned up.
+    // Change the tag, remove from BSM lists, deactivate selector, change colour, repopulate target buttons, set CheckVictory.
     public override void DieAndCleanup()
     {
         if (!alive) { return; }
@@ -16,7 +30,7 @@ public class HeroStateMachine : BaseStateMachine
             // Change the unit's tag
             gameObject.tag = "DeadHero";
 
-            // Remove this object from the enemiesInBattle list. Used for VictoryCheck and to pick attackTarget among others.
+            // Remove this object from the heroesInBattle list. Used for VictoryCheck and to pick attackTarget among others.
             BSM.heroesInBattle.Remove(gameObject);
 
             // Disable selector.
