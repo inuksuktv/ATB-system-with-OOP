@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class BaseStateMachine : BaseUnit
+public class BaseStateMachine : BaseUnit, IPointerClickHandler
 {
     protected BattleStateMachine BSM;
 
@@ -33,6 +34,20 @@ public class BaseStateMachine : BaseUnit
     // Alive check
     protected bool alive = true;
 
+    void OnMouseOver()
+    {
+        if (BSM.isSelecting) { Debug.Log("Mouse is over " + gameObject.name); }
+    }
+
+    void OnMouseExit()
+    {
+        if (BSM.isSelecting) { Debug.Log("Mouse is no longer over " + gameObject.name); }
+    }
+
+    void IPointerClickHandler.OnPointerClick(PointerEventData eventData)
+    {
+        if (BSM.isSelecting) { BSM.Input2(gameObject); }
+    }
 
     // Start is called before the first frame update
     void Start()

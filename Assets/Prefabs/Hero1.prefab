@@ -119,9 +119,9 @@ MonoBehaviour:
   currentDEF: 3
   attackList:
   - {fileID: 7220670733304370788, guid: 37e489b661e2ca14c86a3bfa37748dbf, type: 3}
-  - {fileID: 7220670733304370788, guid: 37e489b661e2ca14c86a3bfa37748dbf, type: 3}
-  - {fileID: 7220670733304370788, guid: 37e489b661e2ca14c86a3bfa37748dbf, type: 3}
-  - {fileID: 7220670733304370788, guid: 37e489b661e2ca14c86a3bfa37748dbf, type: 3}
+  - {fileID: 6108406351616978884, guid: af69b932a0fba864da5865a832bc9ddd, type: 3}
+  - {fileID: 9077087334894889207, guid: 0a649e534c7cc994ca94510d41cdc688, type: 3}
+  - {fileID: 4327650526676952166, guid: fc29edcab9edbf5449afc2778b7591d6, type: 3}
   turnState: 0
   attackTarget: {fileID: 0}
   selector: {fileID: 683516680171213830}

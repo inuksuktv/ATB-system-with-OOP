@@ -26,7 +26,6 @@ public class BattleStateMachine : MonoBehaviour
     public enum HeroGUI
     {
         Available,
-        Targeting,
         Idle,
         Done
     }
@@ -43,6 +42,9 @@ public class BattleStateMachine : MonoBehaviour
     [SerializeField] private RectTransform battleCanvas;
     private RectTransform heroPanelTra;
     private Vector2 screenPoint;
+
+    // For mouseover selection
+    public bool isSelecting = false;
 
     private void Awake()
     {
@@ -170,17 +172,9 @@ public class BattleStateMachine : MonoBehaviour
                     downArrow.GetComponent<Button>().onClick.AddListener(() => Input1(activeHero));
 
                     // Wait for the player's input.
+                    isSelecting = true;
                     heroInput = HeroGUI.Idle;
                 }
-
-                break;
-
-            case (HeroGUI.Targeting):
-
-                // Taking the player's input will have to wait until another round of GUI coding, but we'll pick one at random for now.
-                heroChoice.attackTarget = enemiesInBattle[Random.Range(0, enemiesInBattle.Count)];
-
-                heroInput = HeroGUI.Done;
 
                 break;
 
@@ -239,8 +233,13 @@ public class BattleStateMachine : MonoBehaviour
         heroChoice.attackerName = bsm.unitName;
         heroChoice.chosenAttack = bsm.attackList[0];
         heroChoice.attackerGameObject = obj;
+    }
 
-        // All that's left is to fill in the target and send the action to the battle logic.   
-        heroInput = HeroGUI.Targeting;
+    public void Input2(GameObject obj)
+    {
+        heroChoice.attackTarget = obj;
+
+        isSelecting = false;
+        heroInput = HeroGUI.Done;
     }
 }

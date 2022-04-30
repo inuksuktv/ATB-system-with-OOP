@@ -640,6 +640,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -712,6 +713,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 30, y: 0, z: 0}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c49b4cc203aa6414fae5c798d1d0e7d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EventMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_MaxRayIntersections: 0
 --- !u!1 &1356465079
 GameObject:
   m_ObjectHideFlags: 0
@@ -749,6 +766,7 @@ MonoBehaviour:
   heroesToManage: []
   heroPanelPrefab: {fileID: 5181374240848216077, guid: b7a4e49541599d046aa7d2b4518432a6, type: 3}
   battleCanvas: {fileID: 547582258}
+  isSelecting: 0
 --- !u!4 &1356465081
 Transform:
   m_ObjectHideFlags: 0
@@ -1171,18 +1189,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8116855559292059073, guid: 8fc6bba84dbe0174e9ae7543c876c734, type: 3}
-      propertyPath: attackList.Array.data[1]
-      value: 
-      objectReference: {fileID: 6108406351616978884, guid: af69b932a0fba864da5865a832bc9ddd, type: 3}
-    - target: {fileID: 8116855559292059073, guid: 8fc6bba84dbe0174e9ae7543c876c734, type: 3}
-      propertyPath: attackList.Array.data[2]
-      value: 
-      objectReference: {fileID: 9077087334894889207, guid: 0a649e534c7cc994ca94510d41cdc688, type: 3}
-    - target: {fileID: 8116855559292059073, guid: 8fc6bba84dbe0174e9ae7543c876c734, type: 3}
-      propertyPath: attackList.Array.data[3]
-      value: 
-      objectReference: {fileID: 4327650526676952166, guid: fc29edcab9edbf5449afc2778b7591d6, type: 3}
     - target: {fileID: 8486223512933781625, guid: 8fc6bba84dbe0174e9ae7543c876c734, type: 3}
       propertyPath: m_RootOrder
       value: 3
