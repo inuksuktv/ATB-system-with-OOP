@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HeroStateMachine : BaseStateMachine
+public class HeroStateMachine : UnitStateMachine
 {
     public override void PrepareCooldown()
     {

@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using TMPro;
 
-public class BaseStateMachine : BaseUnit, IPointerClickHandler
+public class UnitStateMachine : BaseUnit, IPointerClickHandler
 {
     protected BattleStateMachine BSM;
 
@@ -30,23 +31,40 @@ public class BaseStateMachine : BaseUnit, IPointerClickHandler
 
     // GUI
     public GameObject selector;
+    private GameObject infoBox;
+    private string oldInfoText;
 
     // Alive check
     protected bool alive = true;
 
-    void OnMouseOver()
+    void OnMouseEnter()
     {
-        if (BSM.isSelecting) { Debug.Log("Mouse is over " + gameObject.name); }
+        if (BSM.isSelecting && gameObject.CompareTag("Unit"))
+        {
+            // Store the info box's current text.
+            TextMeshProUGUI infoText = infoBox.transform.Find("Text").gameObject.GetComponent<TextMeshProUGUI>();
+            oldInfoText = infoText.text;
+
+            selector.SetActive(true);
+            BSM.UpdateInfoBox(gameObject.name);
+        }
     }
 
     void OnMouseExit()
     {
-        if (BSM.isSelecting) { Debug.Log("Mouse is no longer over " + gameObject.name); }
+        if (BSM.isSelecting && gameObject.CompareTag("Unit")) { 
+            BSM.UpdateInfoBox(oldInfoText);
+            selector.SetActive(false);
+        }
     }
 
     void IPointerClickHandler.OnPointerClick(PointerEventData eventData)
     {
-        if (BSM.isSelecting) { BSM.Input2(gameObject); }
+        if (BSM.isSelecting) 
+        { 
+            BSM.Input2(gameObject);
+            selector.SetActive(false);
+        }
     }
 
     // Start is called before the first frame update
@@ -56,6 +74,7 @@ public class BaseStateMachine : BaseUnit, IPointerClickHandler
         startPosition = transform.position;
         selector.SetActive(false);
         turnState = TurnState.Preparing;
+        infoBox = GameObject.Find("BattleCanvas").transform.GetChild(0).gameObject;
     }
 
     // Update is called once per frame
@@ -121,7 +140,7 @@ public class BaseStateMachine : BaseUnit, IPointerClickHandler
     public virtual void DoDamage(AttackHandler myAttack)
     {
         float calcDamage = currentATK + myAttack.chosenAttack.attackDamage;
-        attackTarget.GetComponent<BaseStateMachine>().TakeDamage(calcDamage);
+        attackTarget.GetComponent<UnitStateMachine>().TakeDamage(calcDamage);
     }
 
     public virtual void DieAndCleanup()
@@ -145,7 +164,7 @@ public class BaseStateMachine : BaseUnit, IPointerClickHandler
             {
                 // Skipping i=0 because TimeForAction() is removing the first object in the actionQueue.
                 // Shouldn't this throw an exception if actionQueue.Count is small?
-                for (int i = 1; i < BSM.actionQueue.Count; i++)
+                for (int i = 0; i < BSM.actionQueue.Count; i++)
                 {
                     //If there were any actions targeting this enemy, choose a new target
                     if (BSM.actionQueue[i].attackTarget == gameObject)

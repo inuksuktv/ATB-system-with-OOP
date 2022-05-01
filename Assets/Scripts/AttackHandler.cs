@@ -6,6 +6,7 @@ using UnityEngine;
 public class AttackHandler
 {
     public string attackerName;
+    public string attackDescription;
 
     // Enemy or hero attacker. Skipped this data by using tags instead, I think.
     // public string type

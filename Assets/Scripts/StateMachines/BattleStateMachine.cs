@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class BattleStateMachine : MonoBehaviour
 {
@@ -40,8 +41,10 @@ public class BattleStateMachine : MonoBehaviour
     private GameObject activePanel;
     [SerializeField] private GameObject heroPanelPrefab;
     [SerializeField] private RectTransform battleCanvas;
+    private GameObject infoBox;
     private RectTransform heroPanelTra;
     private Vector2 screenPoint;
+    public List<GameObject> heroPanels = new List<GameObject>();
 
     // For mouseover selection
     public bool isSelecting = false;
@@ -63,13 +66,14 @@ public class BattleStateMachine : MonoBehaviour
         // Create HeroGUI panels
         foreach (GameObject hero in heroesInBattle)
         {
-            // For each new panel, set its parent as battleCanvas and get the RectTransform of the panel.
+            // For each new panel, set its parent as battleCanvas and get the RectTransform of the panel. Deactivate and add to heroPanels list.
             GameObject newPanel = Instantiate(heroPanelPrefab, Vector3.zero, Quaternion.identity);
             newPanel.name = hero.name + "Panel";
             newPanel.transform.SetParent(battleCanvas, false);
             heroPanelTra = newPanel.GetComponent<RectTransform>();
             heroPanelTra.localScale = new Vector3(1f, 1f, 1f);
             newPanel.SetActive(false);
+            heroPanels.Add(newPanel);
 
             // Calculate *screen* position of hero (not a canvas / rectTransform).
             screenPoint = Camera.main.WorldToScreenPoint(hero.transform.position);
@@ -82,6 +86,9 @@ public class BattleStateMachine : MonoBehaviour
             // Position the panel.
             heroPanelTra.localPosition = canvasPos;
         }
+
+        infoBox = battleCanvas.GetChild(0).gameObject;
+        infoBox.SetActive(false);
     }
 
     private void Update()
@@ -119,7 +126,12 @@ public class BattleStateMachine : MonoBehaviour
                     battleState = BattleState.Win;
                 }
                 else {
-                    // Refresh the HeroGUI.
+                    foreach (GameObject panel in heroPanels)
+                    {
+                        panel.SetActive(false);
+                    }
+                    isSelecting = false;
+                    heroInput = HeroGUI.Available;
                 }
 
                 break;
@@ -166,13 +178,12 @@ public class BattleStateMachine : MonoBehaviour
                     GameObject downArrow = activePanel.transform.Find("ArrowDown").gameObject;
 
                     // Add a listener to each button component.
-                    upArrow.GetComponent<Button>().onClick.AddListener(() => Input1(activeHero));
-                    leftArrow.GetComponent<Button>().onClick.AddListener(() => Input1(activeHero));
-                    rightArrow.GetComponent<Button>().onClick.AddListener(() => Input1(activeHero));
-                    downArrow.GetComponent<Button>().onClick.AddListener(() => Input1(activeHero));
+                    upArrow.GetComponent<Button>().onClick.AddListener(() => Input1(activeHero, upArrow));
+                    leftArrow.GetComponent<Button>().onClick.AddListener(() => Input1(activeHero, leftArrow));
+                    rightArrow.GetComponent<Button>().onClick.AddListener(() => Input1(activeHero, rightArrow));
+                    downArrow.GetComponent<Button>().onClick.AddListener(() => Input1(activeHero, downArrow));
 
                     // Wait for the player's input.
-                    isSelecting = true;
                     heroInput = HeroGUI.Idle;
                 }
 
@@ -211,28 +222,35 @@ public class BattleStateMachine : MonoBehaviour
     {
         // Get the performer's gameObject and script.
         GameObject performer = actionQueue[0].attackerGameObject;
-        BaseStateMachine unitSM = performer.GetComponent<BaseStateMachine>();
+        UnitStateMachine unitSM = performer.GetComponent<UnitStateMachine>();
 
         // Pass the target for the performer's Acting phase.
         unitSM.attackTarget = actionQueue[0].attackTarget;
 
         // Set the performer's state to Acting and self to Idle.
-        unitSM.turnState = BaseStateMachine.TurnState.Acting;
+        unitSM.turnState = UnitStateMachine.TurnState.Acting;
         battleState = BattleState.Idle;
       
         // We could add a check here to redirect a hero's attack on the actionQueue if its target is now dead.
     }
 
-    private void Input1(GameObject obj)
+    private void Input1(GameObject unit, GameObject arrow)
     {
-        BaseStateMachine bsm = obj.GetComponent<BaseStateMachine>();
-
         heroChoice = new AttackHandler();
+        
+        // Get the chosen attack, which is a child of the button.
+        BaseAttack attack = arrow.transform.GetChild(0).gameObject.GetComponent<BaseAttack>();
 
-        // Fill what fields we can for heroAttack here. Buttons will probably have a BaseAttack attached to them at Start().
-        heroChoice.attackerName = bsm.unitName;
-        heroChoice.chosenAttack = bsm.attackList[0];
-        heroChoice.attackerGameObject = obj;
+        // Fill what fields we can for heroAttack here. We've attached the attack prefabs to the buttons here.
+        heroChoice.attackerName = heroesToManage[0].name;
+        heroChoice.attackDescription = attack.attackDescription;
+        heroChoice.chosenAttack = attack;
+        heroChoice.attackerGameObject = unit;
+
+        UpdateInfoBox(attack.attackDescription);
+        infoBox.SetActive(true);
+
+        isSelecting = true;
     }
 
     public void Input2(GameObject obj)
@@ -240,6 +258,14 @@ public class BattleStateMachine : MonoBehaviour
         heroChoice.attackTarget = obj;
 
         isSelecting = false;
+        infoBox.SetActive(false);
+
         heroInput = HeroGUI.Done;
+    }
+
+    public void UpdateInfoBox(string str)
+    {
+        TextMeshProUGUI infoText = infoBox.transform.Find("Text").gameObject.GetComponent<TextMeshProUGUI>();
+        infoText.text = str;
     }
 }
