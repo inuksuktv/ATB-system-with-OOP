@@ -60,10 +60,9 @@ public class UnitStateMachine : BaseUnit, IPointerClickHandler
 
     void IPointerClickHandler.OnPointerClick(PointerEventData eventData)
     {
-        if (BSM.isSelecting) 
+        if (BSM.isSelecting && gameObject.CompareTag("Unit")) 
         { 
             BSM.Input2(gameObject);
-            selector.SetActive(false);
         }
     }
 
@@ -86,32 +85,35 @@ public class UnitStateMachine : BaseUnit, IPointerClickHandler
 
                 // Count up to the turnCooldown then set Choosing.
                 PrepareCooldown();
-                break;
+                
+            break;
 
             case (TurnState.Choosing):
 
                 // If there's a hero, choose an action and put it in the actionQueue.
                 ChooseAction();
-                break;
+
+            break;
 
             case (TurnState.Idle):
 
                 // Wait for your turn in the actionQueue.
 
-                break;
+            break;
 
             case (TurnState.Acting):
 
                 // It's your time in the spotlight! Move and deal damage to the target. Tell the BSM when you're done moving and reset the enemy.
                 StartCoroutine(TimeForAction());
-                break;
+
+            break;
 
             case (TurnState.Dead):
 
-                // Quit if the unit's already died and cleaned up.
                 // Change the tag, remove from BSM lists, deactivate selector, change colour, repopulate target buttons, set CheckVictory.
                 DieAndCleanup();
-                break;
+
+            break;
         }
     }
 
@@ -137,12 +139,6 @@ public class UnitStateMachine : BaseUnit, IPointerClickHandler
         }
     }
 
-    public virtual void DoDamage(AttackHandler myAttack)
-    {
-        float calcDamage = currentATK + myAttack.chosenAttack.attackDamage;
-        attackTarget.GetComponent<UnitStateMachine>().TakeDamage(calcDamage);
-    }
-
     public virtual void DieAndCleanup()
     {
         if (!alive) { return; }
@@ -162,8 +158,6 @@ public class UnitStateMachine : BaseUnit, IPointerClickHandler
             // Clean up the actionQueue.
             if (BSM.enemiesInBattle.Count > 0)
             {
-                // Skipping i=0 because TimeForAction() is removing the first object in the actionQueue.
-                // Shouldn't this throw an exception if actionQueue.Count is small?
                 for (int i = 0; i < BSM.actionQueue.Count; i++)
                 {
                     //If there were any actions targeting this unit, choose a new target
@@ -191,7 +185,13 @@ public class UnitStateMachine : BaseUnit, IPointerClickHandler
         }
     }
 
-    public virtual void PrepareCooldown()
+    private void DoDamage(AttackHandler myAttack)
+    {
+        float calcDamage = currentATK + myAttack.chosenAttack.attackDamage;
+        attackTarget.GetComponent<UnitStateMachine>().TakeDamage(calcDamage);
+    }
+
+    private void PrepareCooldown()
     {
         // Record the time since this unit starting preparing.
         elapsedCooldown += Time.deltaTime;
@@ -203,7 +203,7 @@ public class UnitStateMachine : BaseUnit, IPointerClickHandler
         }
     }
 
-    public virtual void TakeDamage(float damageAmount)
+    private void TakeDamage(float damageAmount)
     {
         currentHP -= damageAmount;
         if (currentHP <= 0)
@@ -213,7 +213,7 @@ public class UnitStateMachine : BaseUnit, IPointerClickHandler
         }
     }
 
-    public virtual IEnumerator TimeForAction()
+    private IEnumerator TimeForAction()
     {
         // Break if this Coroutine's already running.
         if (actionStarted)
@@ -224,8 +224,8 @@ public class UnitStateMachine : BaseUnit, IPointerClickHandler
         actionStarted = true;
 
         // Move the attacker until it's close to the target.
-        Vector3 heroPosition = new Vector3(attackTarget.transform.position.x, transform.position.y, attackTarget.transform.position.z + 3f);
-        while (MoveTowards(heroPosition)) { yield return null; }
+        Vector3 heroPosition = new Vector3(attackTarget.transform.position.x, transform.position.y, attackTarget.transform.position.z);
+        while (MoveToTarget(heroPosition)) { yield return null; }
 
         // Load myAttack from the actionQueue and DoDamage.
         AttackHandler myAttack = BSM.actionQueue[0];
@@ -236,7 +236,7 @@ public class UnitStateMachine : BaseUnit, IPointerClickHandler
 
         // Move the attacker back to its starting position. Hold the coroutine until movement finishes.
         Vector3 firstPosition = startPosition;
-        while (MoveTowards(firstPosition)) { yield return null; }
+        while (MoveBack(firstPosition)) { yield return null; }
 
         // Remove this performer's attack from the list in BSM.
         BSM.actionQueue.RemoveAt(0);
@@ -252,8 +252,15 @@ public class UnitStateMachine : BaseUnit, IPointerClickHandler
         turnState = TurnState.Preparing;
     }
 
-    public virtual bool MoveTowards(Vector3 target)
+    private bool MoveToTarget(Vector3 target)
     {
-        return target != (transform.position = Vector3.MoveTowards(transform.position, target, animationSpeed * Time.deltaTime));
+        transform.position = Vector3.MoveTowards(transform.position, target, animationSpeed * Time.deltaTime);
+        return (Vector3.Distance(transform.position, target) > 3f);
+    }
+
+    private bool MoveBack(Vector3 target)
+    {
+        transform.position = Vector3.MoveTowards(transform.position, target, animationSpeed * Time.deltaTime);
+        return transform.position != target;
     }
 }

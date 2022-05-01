@@ -104,40 +104,38 @@ public class BattleStateMachine : MonoBehaviour
                     battleState = BattleState.OrderAction;
                 }
 
-                break;
+            break;
 
             case (BattleState.OrderAction):
 
                 // Get the performer's script from the front of the queue and tell it to act. Set performer to Acting and self to Idle.
                 ExecuteAction();
 
-                break;
+            break;
 
             case (BattleState.Idle):
 
-                break;
+            break;
 
             case (BattleState.VictoryCheck):
 
                 if (heroesInBattle.Count < 1) {
                     battleState = BattleState.Lose;
-                }
-                else if (enemiesInBattle.Count < 1) {
+                } else if (enemiesInBattle.Count < 1) {
                     battleState = BattleState.Win;
-                }
-                else {
+                } else {
+                    // Clearing the inputs and panel every time a unit dies isn't ideal, but oh well.
                     ClearActivePanel();
                     isSelecting = false;
                     heroInput = HeroGUI.Available;
                 }
 
-                break;
+            break;
 
             case (BattleState.Win):
 
                 // Set heroes to idle.
-                foreach (GameObject hero in heroesInBattle)
-                {
+                foreach (GameObject hero in heroesInBattle) {
                     hero.GetComponent<HeroStateMachine>().turnState = HeroStateMachine.TurnState.Idle;
                 }
 
@@ -145,13 +143,13 @@ public class BattleStateMachine : MonoBehaviour
 
                 // Reset scene to world state.
 
-                break;
+            break;
 
             case (BattleState.Lose):
 
                 Debug.Log("You lost the battle.");
 
-                break;
+            break;
         }
 
         // Update the GUI handler
@@ -162,23 +160,20 @@ public class BattleStateMachine : MonoBehaviour
                 if (heroesToManage.Count > 0)
                 {
                     activeHero = heroesToManage[0];
+
+                    // Activate selector.
                     activeHero.transform.Find("Selector").gameObject.SetActive(true);
 
                     // Prepare the hero's input panel. We've already created it, so find the right children buttons and give them listeners to fill in some of heroChoice.
-                    activePanel = battleCanvas.transform.Find(activeHero.name + "Panel").gameObject;
+                    activePanel = battleCanvas.transform.Find(activeHero.name + "Panel").gameObject; // Panels were named in Start().
                     activePanel.SetActive(true);
 
-                    // Find the buttons.
-                    GameObject upArrow = activePanel.transform.Find("ArrowUp").gameObject;
-                    GameObject leftArrow = activePanel.transform.Find("ArrowLeft").gameObject;
-                    GameObject rightArrow = activePanel.transform.Find("ArrowRight").gameObject;
-                    GameObject downArrow = activePanel.transform.Find("ArrowDown").gameObject;
-
-                    // Add a listener to each button component.
-                    upArrow.GetComponent<Button>().onClick.AddListener(() => Input1(activeHero, upArrow));
-                    leftArrow.GetComponent<Button>().onClick.AddListener(() => Input1(activeHero, leftArrow));
-                    rightArrow.GetComponent<Button>().onClick.AddListener(() => Input1(activeHero, rightArrow));
-                    downArrow.GetComponent<Button>().onClick.AddListener(() => Input1(activeHero, downArrow));
+                    // Find the buttons and add a listener.
+                    foreach (RectTransform child in activePanel.transform) {
+                        if (child.GetComponent<Image>() != null) {
+                            child.GetComponent<Button>().onClick.AddListener(() => Input1(activeHero, child));
+                        }
+                    }
 
                     // Wait for the player's input.
                     heroInput = HeroGUI.Idle;
@@ -199,9 +194,6 @@ public class BattleStateMachine : MonoBehaviour
 
                 ClearActivePanel();
 
-                // Clear the GUI.
-                activePanel.SetActive(false);
-
                 // Disable the selector, remove the hero from the GUI list, and initialize the GUI.
                 activeHero.transform.Find("Selector").gameObject.SetActive(false);
                 heroesToManage.RemoveAt(0);
@@ -212,9 +204,32 @@ public class BattleStateMachine : MonoBehaviour
         }
     }
 
+    public void ClearActivePanel()
+    {
+        // Enable all the arrow buttons again in case the player made a selection.
+        foreach (RectTransform child in activePanel.transform) {
+            if (child.gameObject.GetComponent<Image>() != null) {
+                Image image = child.gameObject.GetComponent<Image>();
+                image.enabled = true;
+            }
+        }
+
+        // Hide the panels and infobox.
+        foreach (GameObject panel in heroPanels) {
+            panel.SetActive(false);
+        }
+        infoBox.SetActive(false);
+    }
+
     public void CollectAction(AttackHandler input)
     {
         actionQueue.Add(input);
+    }
+
+    public void UpdateInfoBox(string str)
+    {
+        TextMeshProUGUI infoText = infoBox.transform.Find("Text").gameObject.GetComponent<TextMeshProUGUI>();
+        infoText.text = str;
     }
 
     private void ExecuteAction()
@@ -229,76 +244,51 @@ public class BattleStateMachine : MonoBehaviour
         // Set the performer's state to Acting and self to Idle.
         unitSM.turnState = UnitStateMachine.TurnState.Acting;
         battleState = BattleState.Idle;
-      
-        // We could add a check here to redirect a hero's attack on the actionQueue if its target is now dead.
     }
 
-    private void Input1(GameObject unit, GameObject arrow)
+    private void Input1(GameObject unit, Transform arrow)
     {
         heroChoice = new AttackHandler();
         
         // Get the chosen attack, which is a child of the button.
-        BaseAttack attack = arrow.transform.GetChild(0).gameObject.GetComponent<BaseAttack>();
+        BaseAttack attack = arrow.GetChild(0).gameObject.GetComponent<BaseAttack>();
 
-        // Fill what fields we can for heroAttack here. We've attached the attack prefabs to the buttons here. Get the target on the next input.
-        heroChoice.attackerName = heroesToManage[0].name;
+        // Fill what fields we can for heroChoice here. We've attached the attack prefabs to the buttons. Get the attack's target on the next input.
+        heroChoice.attackerName = unit.name;
         heroChoice.attackDescription = attack.attackDescription;
         heroChoice.chosenAttack = attack;
         heroChoice.attackerGameObject = unit;
 
-        UpdateInfoBox(attack.attackDescription);
+        // Send the attackDescription to the infobox.
         infoBox.SetActive(true);
-
+        UpdateInfoBox(attack.attackDescription);
+        
+        // Enables mouse selection on the enemies.
         isSelecting = true;
 
         // Hide all the buttons that weren't clicked.
-        foreach (RectTransform child in arrow.transform.parent.gameObject.transform)
-        {
-            if (child.gameObject.GetComponent<Image>() != null)
-            {
+        foreach (RectTransform child in arrow.parent.gameObject.transform) {
+            if (child.gameObject.GetComponent<Image>() != null) {
                 Image image = child.gameObject.GetComponent<Image>();
                 image.enabled = false;
             }
         }
 
         // Show the button that was clicked again.
-        Image arrowImage = arrow.gameObject.GetComponent<Image>();
+        Image arrowImage = arrow.GetComponent<Image>();
         arrowImage.enabled = true;
     }
 
-    public void Input2(GameObject obj)
+    public void Input2(GameObject unit)
     {
-        heroChoice.attackTarget = obj;
+        // Fill the last field for heroChoice.
+        heroChoice.attackTarget = unit;
 
+        // Disable mouse selection on the enemies and disable GUI elements.
         isSelecting = false;
         infoBox.SetActive(false);
+        unit.transform.GetChild(0).gameObject.SetActive(false); // Selector.
 
         heroInput = HeroGUI.Done;
-    }
-
-    public void ClearActivePanel()
-    {
-        // Enable all the arrow buttons again in case the player made a selection.
-        foreach (RectTransform child in activePanel.transform)
-        {
-            if (child.gameObject.GetComponent<Image>() != null)
-            {
-                Image image = child.gameObject.GetComponent<Image>();
-                image.enabled = true;
-            }
-        }
-
-        // Hide the panels and infobox.
-        foreach (GameObject panel in heroPanels)
-        {
-            panel.SetActive(false);
-        }
-        infoBox.SetActive(false);
-    }
-
-    public void UpdateInfoBox(string str)
-    {
-        TextMeshProUGUI infoText = infoBox.transform.Find("Text").gameObject.GetComponent<TextMeshProUGUI>();
-        infoText.text = str;
     }
 }
