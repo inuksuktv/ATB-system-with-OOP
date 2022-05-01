@@ -126,10 +126,7 @@ public class BattleStateMachine : MonoBehaviour
                     battleState = BattleState.Win;
                 }
                 else {
-                    foreach (GameObject panel in heroPanels)
-                    {
-                        panel.SetActive(false);
-                    }
+                    ClearActivePanel();
                     isSelecting = false;
                     heroInput = HeroGUI.Available;
                 }
@@ -200,6 +197,8 @@ public class BattleStateMachine : MonoBehaviour
                 // Send the action to the battle logic.
                 CollectAction(heroChoice);
 
+                ClearActivePanel();
+
                 // Clear the GUI.
                 activePanel.SetActive(false);
 
@@ -241,7 +240,7 @@ public class BattleStateMachine : MonoBehaviour
         // Get the chosen attack, which is a child of the button.
         BaseAttack attack = arrow.transform.GetChild(0).gameObject.GetComponent<BaseAttack>();
 
-        // Fill what fields we can for heroAttack here. We've attached the attack prefabs to the buttons here.
+        // Fill what fields we can for heroAttack here. We've attached the attack prefabs to the buttons here. Get the target on the next input.
         heroChoice.attackerName = heroesToManage[0].name;
         heroChoice.attackDescription = attack.attackDescription;
         heroChoice.chosenAttack = attack;
@@ -251,6 +250,20 @@ public class BattleStateMachine : MonoBehaviour
         infoBox.SetActive(true);
 
         isSelecting = true;
+
+        // Hide all the buttons that weren't clicked.
+        foreach (RectTransform child in arrow.transform.parent.gameObject.transform)
+        {
+            if (child.gameObject.GetComponent<Image>() != null)
+            {
+                Image image = child.gameObject.GetComponent<Image>();
+                image.enabled = false;
+            }
+        }
+
+        // Show the button that was clicked again.
+        Image arrowImage = arrow.gameObject.GetComponent<Image>();
+        arrowImage.enabled = true;
     }
 
     public void Input2(GameObject obj)
@@ -261,6 +274,26 @@ public class BattleStateMachine : MonoBehaviour
         infoBox.SetActive(false);
 
         heroInput = HeroGUI.Done;
+    }
+
+    public void ClearActivePanel()
+    {
+        // Enable all the arrow buttons again in case the player made a selection.
+        foreach (RectTransform child in activePanel.transform)
+        {
+            if (child.gameObject.GetComponent<Image>() != null)
+            {
+                Image image = child.gameObject.GetComponent<Image>();
+                image.enabled = true;
+            }
+        }
+
+        // Hide the panels and infobox.
+        foreach (GameObject panel in heroPanels)
+        {
+            panel.SetActive(false);
+        }
+        infoBox.SetActive(false);
     }
 
     public void UpdateInfoBox(string str)

@@ -166,7 +166,7 @@ public class UnitStateMachine : BaseUnit, IPointerClickHandler
                 // Shouldn't this throw an exception if actionQueue.Count is small?
                 for (int i = 0; i < BSM.actionQueue.Count; i++)
                 {
-                    //If there were any actions targeting this enemy, choose a new target
+                    //If there were any actions targeting this unit, choose a new target
                     if (BSM.actionQueue[i].attackTarget == gameObject)
                     {
                         BSM.actionQueue[i].attackTarget = BSM.enemiesInBattle[Random.Range(0, BSM.enemiesInBattle.Count)];
@@ -183,9 +183,8 @@ public class UnitStateMachine : BaseUnit, IPointerClickHandler
             // Set alive false
             alive = false;
 
-            // Reset enemyButtons for the target panel.
-            // We may take a different approach with buttons here so this line will likely change.
-            //BSM.EnemyButtons();
+            // Initialize the GUI.
+            BSM.ClearActivePanel();
 
             //Check if battle is won or lost
             BSM.battleState = BattleStateMachine.BattleState.VictoryCheck;

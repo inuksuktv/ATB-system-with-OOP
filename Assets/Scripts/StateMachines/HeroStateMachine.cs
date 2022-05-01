@@ -42,12 +42,16 @@ public class HeroStateMachine : UnitStateMachine
             // Clean up the actionQueue.
             if (BSM.heroesInBattle.Count > 0)
             {
-                // Skipping i=0 because TimeForAction() is removing the first object in the actionQueue.
-                // Shouldn't this throw an exception if actionQueue.Count is small?
-                for (int i = 1; i < BSM.actionQueue.Count; i++)
+                // Remove the hero's actions from the queue.
+                for (int i = 0; i < BSM.actionQueue.Count; i++)
                 {
-                    // Remove any action where this object is the attacker from the queue. 
-                    // I decided to keep enemies targeting dead heroes, not removing an action if this object was the target.
+                    //If there were any actions targeting this unit, choose a new target.
+                    if (BSM.actionQueue[i].attackTarget == gameObject)
+                    {
+                        BSM.actionQueue[i].attackTarget = BSM.heroesInBattle[Random.Range(0, BSM.heroesInBattle.Count)];
+                    }
+
+                    //Remove this object's turn
                     if (BSM.actionQueue[i].attackerGameObject == gameObject)
                     {
                         BSM.actionQueue.Remove(BSM.actionQueue[i]);
@@ -55,12 +59,17 @@ public class HeroStateMachine : UnitStateMachine
                 }
             }
 
+            // Remove this unit from the GUI handler list.
+            if (BSM.heroesToManage.Count > 0)
+            {
+                BSM.heroesToManage.Remove(gameObject);
+            }
+
             // Set alive false
             alive = false;
 
-            // Reset enemyButtons for the target panel.
-            // We may take a different approach with buttons here so this line will likely change.
-            //BSM.EnemyButtons();
+            // Initialize the GUI.
+            BSM.ClearActivePanel();
 
             //Check if battle is won or lost
             BSM.battleState = BattleStateMachine.BattleState.VictoryCheck;
