@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// INHERITANCE
 public class HeroStateMachine : UnitStateMachine
 {
     // Add the object for the HeroGUI state machine to manage.
+    // POLYMORPHISM
     public override void ChooseAction()
     {
         BSM.heroesToManage.Add(gameObject);
@@ -13,6 +15,7 @@ public class HeroStateMachine : UnitStateMachine
 
     // Return if the unit's already died and cleaned up.
     // Change the tag, remove from BSM lists, deactivate selector, change colour, repopulate target buttons, set CheckVictory.
+    // POLYMORPHISM
     public override void DieAndCleanup()
     {
         if (!alive) { return; }
