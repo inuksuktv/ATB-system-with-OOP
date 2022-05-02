@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using TMPro;
 
+// INHERITANCE
 public class UnitStateMachine : BaseUnit, IPointerClickHandler
 {
     protected BattleStateMachine BSM;
@@ -79,6 +80,7 @@ public class UnitStateMachine : BaseUnit, IPointerClickHandler
     // Update is called once per frame
     void Update()
     {
+        // ABSTRACTION
         switch (turnState)
         {
             case (TurnState.Preparing):
