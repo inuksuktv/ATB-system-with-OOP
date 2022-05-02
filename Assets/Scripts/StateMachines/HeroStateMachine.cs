@@ -30,7 +30,8 @@ public class HeroStateMachine : UnitStateMachine
             selector.SetActive(false);
 
             // Change the color to grey (or play death animations?).
-            gameObject.GetComponent<MeshRenderer>().material.color = new Color32(105, 105, 105, 255);
+            //gameObject.GetComponent<MeshRenderer>().material.color = new Color32(105, 105, 105, 255);
+            gameObject.SetActive(false);
 
             // Clean up the actionQueue.
             if (BSM.heroesInBattle.Count > 0)

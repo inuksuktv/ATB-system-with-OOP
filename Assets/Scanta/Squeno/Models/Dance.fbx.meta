@@ -1,0 +1,2651 @@
+fileFormatVersion: 2
+guid: 44a8f4615675a41e6b96b3cca0040964
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: heart_0002_rig_0001:cc_teeth
+  - first:
+      1: 100002
+    second: heart_0002_rig_0001:dil:dil:v001_0001:normal:Group21632
+  - first:
+      1: 100004
+    second: heart_0002_rig_0001:group1
+  - first:
+      1: 100006
+    second: heart_0002_rig_0001:heart
+  - first:
+      1: 100008
+    second: heart_0002_rig_0001:heart_l_arm_ClavicleSHJnt
+  - first:
+      1: 100010
+    second: heart_0002_rig_0001:heart_l_arm_ElbowSHJnt
+  - first:
+      1: 100012
+    second: heart_0002_rig_0001:heart_l_arm_ShoulderSHJnt
+  - first:
+      1: 100014
+    second: heart_0002_rig_0001:heart_l_arm_WristSHJnt
+  - first:
+      1: 100016
+    second: heart_0002_rig_0001:heart_l_finger_01_01SHJnt
+  - first:
+      1: 100018
+    second: heart_0002_rig_0001:heart_l_finger_01_02SHJnt
+  - first:
+      1: 100020
+    second: heart_0002_rig_0001:heart_l_finger_02_01SHJnt
+  - first:
+      1: 100022
+    second: heart_0002_rig_0001:heart_l_finger_02_02SHJnt
+  - first:
+      1: 100024
+    second: heart_0002_rig_0001:heart_l_finger_03_01SHJnt
+  - first:
+      1: 100026
+    second: heart_0002_rig_0001:heart_l_finger_03_02SHJnt
+  - first:
+      1: 100028
+    second: heart_0002_rig_0001:heart_l_finger_04_01SHJnt
+  - first:
+      1: 100030
+    second: heart_0002_rig_0001:heart_l_finger_04_02SHJnt
+  - first:
+      1: 100032
+    second: heart_0002_rig_0001:heart_l_legs_AnkleSHJnt
+  - first:
+      1: 100034
+    second: heart_0002_rig_0001:heart_l_legs_BallSHJnt
+  - first:
+      1: 100036
+    second: heart_0002_rig_0001:heart_l_legs_HipSHJnt
+  - first:
+      1: 100038
+    second: heart_0002_rig_0001:heart_l_legs_KneeSHJnt
+  - first:
+      1: 100040
+    second: heart_0002_rig_0001:heart_l_legs_ToeSHJnt
+  - first:
+      1: 100042
+    second: heart_0002_rig_0001:heart_r_arm_ClavicleSHJnt
+  - first:
+      1: 100044
+    second: heart_0002_rig_0001:heart_r_arm_ElbowSHJnt
+  - first:
+      1: 100046
+    second: heart_0002_rig_0001:heart_r_arm_ShoulderSHJnt
+  - first:
+      1: 100048
+    second: heart_0002_rig_0001:heart_r_arm_WristSHJnt
+  - first:
+      1: 100050
+    second: heart_0002_rig_0001:heart_r_finger_01_01SHJnt
+  - first:
+      1: 100052
+    second: heart_0002_rig_0001:heart_r_finger_01_02SHJnt
+  - first:
+      1: 100054
+    second: heart_0002_rig_0001:heart_r_finger_02_01SHJnt
+  - first:
+      1: 100056
+    second: heart_0002_rig_0001:heart_r_finger_02_02SHJnt
+  - first:
+      1: 100058
+    second: heart_0002_rig_0001:heart_r_finger_03_01SHJnt
+  - first:
+      1: 100060
+    second: heart_0002_rig_0001:heart_r_finger_03_02SHJnt
+  - first:
+      1: 100062
+    second: heart_0002_rig_0001:heart_r_finger_04_01SHJnt
+  - first:
+      1: 100064
+    second: heart_0002_rig_0001:heart_r_finger_04_02SHJnt
+  - first:
+      1: 100066
+    second: heart_0002_rig_0001:heart_r_legs_AnkleSHJnt
+  - first:
+      1: 100068
+    second: heart_0002_rig_0001:heart_r_legs_BallSHJnt
+  - first:
+      1: 100070
+    second: heart_0002_rig_0001:heart_r_legs_HipSHJnt
+  - first:
+      1: 100072
+    second: heart_0002_rig_0001:heart_r_legs_KneeSHJnt
+  - first:
+      1: 100074
+    second: heart_0002_rig_0001:heart_r_legs_ToeSHJnt
+  - first:
+      1: 100076
+    second: heart_0002_rig_0001:heart_ROOTSHJnt
+  - first:
+      1: 100078
+    second: heart_0002_rig_0001:heart_SHJntGrp
+  - first:
+      1: 100080
+    second: heart_0002_rig_0001:heart_spine_01SHJnt
+  - first:
+      1: 100082
+    second: heart_0002_rig_0001:heart_spine_TopSHJnt
+  - first:
+      1: 100084
+    second: heart_0002_rig_0001:L_eye
+  - first:
+      1: 100086
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:group1
+  - first:
+      1: 100088
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube1
+  - first:
+      1: 100090
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube10
+  - first:
+      1: 100092
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube11
+  - first:
+      1: 100094
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube2
+  - first:
+      1: 100096
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube3
+  - first:
+      1: 100098
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube4
+  - first:
+      1: 100100
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube5
+  - first:
+      1: 100102
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube6
+  - first:
+      1: 100104
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube7
+  - first:
+      1: 100106
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube9
+  - first:
+      1: 100108
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:polySurface13
+  - first:
+      1: 100110
+    second: heart_0002_rig_0001:R_eye2
+  - first:
+      1: 100112
+    second: heart_0002_rig_0001:RRM_arm
+  - first:
+      1: 100114
+    second: heart_0002_rig_0001:RRM_COG
+  - first:
+      1: 100116
+    second: heart_0002_rig_0001:RRM_finger
+  - first:
+      1: 100118
+    second: heart_0002_rig_0001:RRM_l_arm
+  - first:
+      1: 100120
+    second: heart_0002_rig_0001:RRM_l_arm_AimLctr
+  - first:
+      1: 100122
+    second: heart_0002_rig_0001:RRM_l_arm_Clavicle
+  - first:
+      1: 100124
+    second: heart_0002_rig_0001:RRM_l_arm_Clavicle_RRM_l_arm_Shoulder_AimLctr
+  - first:
+      1: 100126
+    second: heart_0002_rig_0001:RRM_l_arm_Clavicle_RRM_l_arm_Shoulder_TargetLctr
+  - first:
+      1: 100128
+    second: heart_0002_rig_0001:RRM_l_arm_Clavicle_RRM_l_arm_ShoulderCtrl
+  - first:
+      1: 100130
+    second: heart_0002_rig_0001:RRM_l_arm_ClavicleGrp
+  - first:
+      1: 100132
+    second: heart_0002_rig_0001:RRM_l_arm_ConnectorGrp
+  - first:
+      1: 100134
+    second: heart_0002_rig_0001:RRM_l_arm_Elbow
+  - first:
+      1: 100136
+    second: heart_0002_rig_0001:RRM_l_arm_Elbow_RRM_l_arm_Wrist_AimLctr
+  - first:
+      1: 100138
+    second: heart_0002_rig_0001:RRM_l_arm_Elbow_RRM_l_arm_Wrist_TargetLctr
+  - first:
+      1: 100140
+    second: heart_0002_rig_0001:RRM_l_arm_Elbow_RRM_l_arm_WristCtrl
+  - first:
+      1: 100142
+    second: heart_0002_rig_0001:RRM_l_arm_ElbowAimLctr
+  - first:
+      1: 100144
+    second: heart_0002_rig_0001:RRM_l_arm_ElbowAimLctrGrp
+  - first:
+      1: 100146
+    second: heart_0002_rig_0001:RRM_l_arm_ElbowGrp
+  - first:
+      1: 100148
+    second: heart_0002_rig_0001:RRM_l_arm_Parent
+  - first:
+      1: 100150
+    second: heart_0002_rig_0001:RRM_l_arm_Parent_RRM_l_arm_Clavicle_AimLctr
+  - first:
+      1: 100152
+    second: heart_0002_rig_0001:RRM_l_arm_Parent_RRM_l_arm_Clavicle_TargetLctr
+  - first:
+      1: 100154
+    second: heart_0002_rig_0001:RRM_l_arm_Parent_RRM_l_arm_ClavicleCtrl
+  - first:
+      1: 100156
+    second: heart_0002_rig_0001:RRM_l_arm_Shoulder
+  - first:
+      1: 100158
+    second: heart_0002_rig_0001:RRM_l_arm_Shoulder_RRM_l_arm_Elbow_AimLctr
+  - first:
+      1: 100160
+    second: heart_0002_rig_0001:RRM_l_arm_Shoulder_RRM_l_arm_Elbow_TargetLctr
+  - first:
+      1: 100162
+    second: heart_0002_rig_0001:RRM_l_arm_Shoulder_RRM_l_arm_ElbowCtrl
+  - first:
+      1: 100164
+    second: heart_0002_rig_0001:RRM_l_arm_ShoulderGrp
+  - first:
+      1: 100166
+    second: heart_0002_rig_0001:RRM_l_arm_Wrist
+  - first:
+      1: 100168
+    second: heart_0002_rig_0001:RRM_l_arm_Wrist_RRM_l_finger_Parent_AimLctr
+  - first:
+      1: 100170
+    second: heart_0002_rig_0001:RRM_l_arm_Wrist_RRM_l_finger_Parent_TargetLctr
+  - first:
+      1: 100172
+    second: heart_0002_rig_0001:RRM_l_arm_Wrist_RRM_l_finger_ParentCtrl
+  - first:
+      1: 100174
+    second: heart_0002_rig_0001:RRM_l_arm_WristGrp
+  - first:
+      1: 100176
+    second: heart_0002_rig_0001:RRM_l_finger
+  - first:
+      1: 100178
+    second: heart_0002_rig_0001:RRM_l_finger_01_01
+  - first:
+      1: 100180
+    second: heart_0002_rig_0001:RRM_l_finger_01_02
+  - first:
+      1: 100182
+    second: heart_0002_rig_0001:RRM_l_finger_01__RRM_l_finger_01_02_AimLctr
+  - first:
+      1: 100184
+    second: heart_0002_rig_0001:RRM_l_finger_01__RRM_l_finger_01_02_TargetLctr
+  - first:
+      1: 100186
+    second: heart_0002_rig_0001:RRM_l_finger_01__RRM_l_finger_01_02Ctrl
+  - first:
+      1: 100188
+    second: heart_0002_rig_0001:RRM_l_finger_02_01
+  - first:
+      1: 100190
+    second: heart_0002_rig_0001:RRM_l_finger_02_02
+  - first:
+      1: 100192
+    second: heart_0002_rig_0001:RRM_l_finger_02__RRM_l_finger_02_02_AimLctr
+  - first:
+      1: 100194
+    second: heart_0002_rig_0001:RRM_l_finger_02__RRM_l_finger_02_02_TargetLctr
+  - first:
+      1: 100196
+    second: heart_0002_rig_0001:RRM_l_finger_02__RRM_l_finger_02_02Ctrl
+  - first:
+      1: 100198
+    second: heart_0002_rig_0001:RRM_l_finger_03_01
+  - first:
+      1: 100200
+    second: heart_0002_rig_0001:RRM_l_finger_03_02
+  - first:
+      1: 100202
+    second: heart_0002_rig_0001:RRM_l_finger_03__RRM_l_finger_03_02_AimLctr
+  - first:
+      1: 100204
+    second: heart_0002_rig_0001:RRM_l_finger_03__RRM_l_finger_03_02_TargetLctr
+  - first:
+      1: 100206
+    second: heart_0002_rig_0001:RRM_l_finger_03__RRM_l_finger_03_02Ctrl
+  - first:
+      1: 100208
+    second: heart_0002_rig_0001:RRM_l_finger_04_01
+  - first:
+      1: 100210
+    second: heart_0002_rig_0001:RRM_l_finger_04_02
+  - first:
+      1: 100212
+    second: heart_0002_rig_0001:RRM_l_finger_04__RRM_l_finger_04_02_AimLctr
+  - first:
+      1: 100214
+    second: heart_0002_rig_0001:RRM_l_finger_04__RRM_l_finger_04_02_TargetLctr
+  - first:
+      1: 100216
+    second: heart_0002_rig_0001:RRM_l_finger_04__RRM_l_finger_04_02Ctrl
+  - first:
+      1: 100218
+    second: heart_0002_rig_0001:RRM_l_finger_ConnectorGrp
+  - first:
+      1: 100220
+    second: heart_0002_rig_0001:RRM_l_finger_Grp
+  - first:
+      1: 100222
+    second: heart_0002_rig_0001:RRM_l_finger_Parent
+  - first:
+      1: 100224
+    second: heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_01__AimLctr
+  - first:
+      1: 100226
+    second: heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_01__TargetLctr
+  - first:
+      1: 100228
+    second: heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_01_Ctrl
+  - first:
+      1: 100230
+    second: heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_02__AimLctr
+  - first:
+      1: 100232
+    second: heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_02__TargetLctr
+  - first:
+      1: 100234
+    second: heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_02_Ctrl
+  - first:
+      1: 100236
+    second: heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_03__AimLctr
+  - first:
+      1: 100238
+    second: heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_03__TargetLctr
+  - first:
+      1: 100240
+    second: heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_03_Ctrl
+  - first:
+      1: 100242
+    second: heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_04__AimLctr
+  - first:
+      1: 100244
+    second: heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_04__TargetLctr
+  - first:
+      1: 100246
+    second: heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_04_Ctrl
+  - first:
+      1: 100248
+    second: heart_0002_rig_0001:RRM_l_legs
+  - first:
+      1: 100250
+    second: heart_0002_rig_0001:RRM_l_legs_AimLctr
+  - first:
+      1: 100252
+    second: heart_0002_rig_0001:RRM_l_legs_Ankle
+  - first:
+      1: 100254
+    second: heart_0002_rig_0001:RRM_l_legs_Ankle_RRM_l_legs_Ball_AimLctr
+  - first:
+      1: 100256
+    second: heart_0002_rig_0001:RRM_l_legs_Ankle_RRM_l_legs_Ball_TargetLctr
+  - first:
+      1: 100258
+    second: heart_0002_rig_0001:RRM_l_legs_Ankle_RRM_l_legs_BallCtrl
+  - first:
+      1: 100260
+    second: heart_0002_rig_0001:RRM_l_legs_AnkleGrp
+  - first:
+      1: 100262
+    second: heart_0002_rig_0001:RRM_l_legs_Ball
+  - first:
+      1: 100264
+    second: heart_0002_rig_0001:RRM_l_legs_Ball_RRM_l_legs_Toe_AimLctr
+  - first:
+      1: 100266
+    second: heart_0002_rig_0001:RRM_l_legs_Ball_RRM_l_legs_Toe_TargetLctr
+  - first:
+      1: 100268
+    second: heart_0002_rig_0001:RRM_l_legs_Ball_RRM_l_legs_ToeCtrl
+  - first:
+      1: 100270
+    second: heart_0002_rig_0001:RRM_l_legs_ConnectorGrp
+  - first:
+      1: 100272
+    second: heart_0002_rig_0001:RRM_l_legs_FootLeftTilt
+  - first:
+      1: 100274
+    second: heart_0002_rig_0001:RRM_l_legs_FootRightTilt
+  - first:
+      1: 100276
+    second: heart_0002_rig_0001:RRM_l_legs_Ground
+  - first:
+      1: 100278
+    second: heart_0002_rig_0001:RRM_l_legs_GroundGrp
+  - first:
+      1: 100280
+    second: heart_0002_rig_0001:RRM_l_legs_GroundGrp2
+  - first:
+      1: 100282
+    second: heart_0002_rig_0001:RRM_l_legs_HeelPivot
+  - first:
+      1: 100284
+    second: heart_0002_rig_0001:RRM_l_legs_Hip
+  - first:
+      1: 100286
+    second: heart_0002_rig_0001:RRM_l_legs_Hip_RRM_l_legs_Knee_AimLctr
+  - first:
+      1: 100288
+    second: heart_0002_rig_0001:RRM_l_legs_Hip_RRM_l_legs_Knee_TargetLctr
+  - first:
+      1: 100290
+    second: heart_0002_rig_0001:RRM_l_legs_Hip_RRM_l_legs_KneeCtrl
+  - first:
+      1: 100292
+    second: heart_0002_rig_0001:RRM_l_legs_HipGrp
+  - first:
+      1: 100294
+    second: heart_0002_rig_0001:RRM_l_legs_Knee
+  - first:
+      1: 100296
+    second: heart_0002_rig_0001:RRM_l_legs_Knee_RRM_l_legs_Ankle_AimLctr
+  - first:
+      1: 100298
+    second: heart_0002_rig_0001:RRM_l_legs_Knee_RRM_l_legs_Ankle_TargetLctr
+  - first:
+      1: 100300
+    second: heart_0002_rig_0001:RRM_l_legs_Knee_RRM_l_legs_AnkleCtrl
+  - first:
+      1: 100302
+    second: heart_0002_rig_0001:RRM_l_legs_KneeAimLctr
+  - first:
+      1: 100304
+    second: heart_0002_rig_0001:RRM_l_legs_KneeAimLctrGrp
+  - first:
+      1: 100306
+    second: heart_0002_rig_0001:RRM_l_legs_KneeGrp
+  - first:
+      1: 100308
+    second: heart_0002_rig_0001:RRM_l_legs_Parent
+  - first:
+      1: 100310
+    second: heart_0002_rig_0001:RRM_l_legs_Parent_RRM_l_legs_Hip_AimLctr
+  - first:
+      1: 100312
+    second: heart_0002_rig_0001:RRM_l_legs_Parent_RRM_l_legs_Hip_TargetLctr
+  - first:
+      1: 100314
+    second: heart_0002_rig_0001:RRM_l_legs_Parent_RRM_l_legs_HipCtrl
+  - first:
+      1: 100316
+    second: heart_0002_rig_0001:RRM_l_legs_Toe
+  - first:
+      1: 100318
+    second: heart_0002_rig_0001:RRM_legs
+  - first:
+      1: 100320
+    second: heart_0002_rig_0001:RRM_MAIN
+  - first:
+      1: 100322
+    second: heart_0002_rig_0001:RRM_r_arm
+  - first:
+      1: 100324
+    second: heart_0002_rig_0001:RRM_r_arm_AimLctr
+  - first:
+      1: 100326
+    second: heart_0002_rig_0001:RRM_r_arm_Clavicle
+  - first:
+      1: 100328
+    second: heart_0002_rig_0001:RRM_r_arm_Clavicle_RRM_r_arm_Shoulder_AimLctr
+  - first:
+      1: 100330
+    second: heart_0002_rig_0001:RRM_r_arm_Clavicle_RRM_r_arm_Shoulder_TargetLctr
+  - first:
+      1: 100332
+    second: heart_0002_rig_0001:RRM_r_arm_Clavicle_RRM_r_arm_ShoulderCtrl
+  - first:
+      1: 100334
+    second: heart_0002_rig_0001:RRM_r_arm_ClavicleGrp
+  - first:
+      1: 100336
+    second: heart_0002_rig_0001:RRM_r_arm_ConnectorGrp
+  - first:
+      1: 100338
+    second: heart_0002_rig_0001:RRM_r_arm_Elbow
+  - first:
+      1: 100340
+    second: heart_0002_rig_0001:RRM_r_arm_Elbow_RRM_r_arm_Wrist_AimLctr
+  - first:
+      1: 100342
+    second: heart_0002_rig_0001:RRM_r_arm_Elbow_RRM_r_arm_Wrist_TargetLctr
+  - first:
+      1: 100344
+    second: heart_0002_rig_0001:RRM_r_arm_Elbow_RRM_r_arm_WristCtrl
+  - first:
+      1: 100346
+    second: heart_0002_rig_0001:RRM_r_arm_ElbowAimLctr
+  - first:
+      1: 100348
+    second: heart_0002_rig_0001:RRM_r_arm_ElbowAimLctrGrp
+  - first:
+      1: 100350
+    second: heart_0002_rig_0001:RRM_r_arm_ElbowGrp
+  - first:
+      1: 100352
+    second: heart_0002_rig_0001:RRM_r_arm_Parent
+  - first:
+      1: 100354
+    second: heart_0002_rig_0001:RRM_r_arm_Parent_RRM_r_arm_Clavicle_AimLctr
+  - first:
+      1: 100356
+    second: heart_0002_rig_0001:RRM_r_arm_Parent_RRM_r_arm_Clavicle_TargetLctr
+  - first:
+      1: 100358
+    second: heart_0002_rig_0001:RRM_r_arm_Parent_RRM_r_arm_ClavicleCtrl
+  - first:
+      1: 100360
+    second: heart_0002_rig_0001:RRM_r_arm_Shoulder
+  - first:
+      1: 100362
+    second: heart_0002_rig_0001:RRM_r_arm_Shoulder_RRM_r_arm_Elbow_AimLctr
+  - first:
+      1: 100364
+    second: heart_0002_rig_0001:RRM_r_arm_Shoulder_RRM_r_arm_Elbow_TargetLctr
+  - first:
+      1: 100366
+    second: heart_0002_rig_0001:RRM_r_arm_Shoulder_RRM_r_arm_ElbowCtrl
+  - first:
+      1: 100368
+    second: heart_0002_rig_0001:RRM_r_arm_ShoulderGrp
+  - first:
+      1: 100370
+    second: heart_0002_rig_0001:RRM_r_arm_Wrist
+  - first:
+      1: 100372
+    second: heart_0002_rig_0001:RRM_r_arm_Wrist_RRM_r_finger_Parent_AimLctr
+  - first:
+      1: 100374
+    second: heart_0002_rig_0001:RRM_r_arm_Wrist_RRM_r_finger_Parent_TargetLctr
+  - first:
+      1: 100376
+    second: heart_0002_rig_0001:RRM_r_arm_Wrist_RRM_r_finger_ParentCtrl
+  - first:
+      1: 100378
+    second: heart_0002_rig_0001:RRM_r_arm_WristGrp
+  - first:
+      1: 100380
+    second: heart_0002_rig_0001:RRM_r_finger
+  - first:
+      1: 100382
+    second: heart_0002_rig_0001:RRM_r_finger_01_01
+  - first:
+      1: 100384
+    second: heart_0002_rig_0001:RRM_r_finger_01_02
+  - first:
+      1: 100386
+    second: heart_0002_rig_0001:RRM_r_finger_01__RRM_r_finger_01_02_AimLctr
+  - first:
+      1: 100388
+    second: heart_0002_rig_0001:RRM_r_finger_01__RRM_r_finger_01_02_TargetLctr
+  - first:
+      1: 100390
+    second: heart_0002_rig_0001:RRM_r_finger_01__RRM_r_finger_01_02Ctrl
+  - first:
+      1: 100392
+    second: heart_0002_rig_0001:RRM_r_finger_02_01
+  - first:
+      1: 100394
+    second: heart_0002_rig_0001:RRM_r_finger_02_02
+  - first:
+      1: 100396
+    second: heart_0002_rig_0001:RRM_r_finger_02__RRM_r_finger_02_02_AimLctr
+  - first:
+      1: 100398
+    second: heart_0002_rig_0001:RRM_r_finger_02__RRM_r_finger_02_02_TargetLctr
+  - first:
+      1: 100400
+    second: heart_0002_rig_0001:RRM_r_finger_02__RRM_r_finger_02_02Ctrl
+  - first:
+      1: 100402
+    second: heart_0002_rig_0001:RRM_r_finger_03_01
+  - first:
+      1: 100404
+    second: heart_0002_rig_0001:RRM_r_finger_03_02
+  - first:
+      1: 100406
+    second: heart_0002_rig_0001:RRM_r_finger_03__RRM_r_finger_03_02_AimLctr
+  - first:
+      1: 100408
+    second: heart_0002_rig_0001:RRM_r_finger_03__RRM_r_finger_03_02_TargetLctr
+  - first:
+      1: 100410
+    second: heart_0002_rig_0001:RRM_r_finger_03__RRM_r_finger_03_02Ctrl
+  - first:
+      1: 100412
+    second: heart_0002_rig_0001:RRM_r_finger_04_01
+  - first:
+      1: 100414
+    second: heart_0002_rig_0001:RRM_r_finger_04_02
+  - first:
+      1: 100416
+    second: heart_0002_rig_0001:RRM_r_finger_04__RRM_r_finger_04_02_AimLctr
+  - first:
+      1: 100418
+    second: heart_0002_rig_0001:RRM_r_finger_04__RRM_r_finger_04_02_TargetLctr
+  - first:
+      1: 100420
+    second: heart_0002_rig_0001:RRM_r_finger_04__RRM_r_finger_04_02Ctrl
+  - first:
+      1: 100422
+    second: heart_0002_rig_0001:RRM_r_finger_ConnectorGrp
+  - first:
+      1: 100424
+    second: heart_0002_rig_0001:RRM_r_finger_Grp
+  - first:
+      1: 100426
+    second: heart_0002_rig_0001:RRM_r_finger_Parent
+  - first:
+      1: 100428
+    second: heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_01__AimLctr
+  - first:
+      1: 100430
+    second: heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_01__TargetLctr
+  - first:
+      1: 100432
+    second: heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_01_Ctrl
+  - first:
+      1: 100434
+    second: heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_02__AimLctr
+  - first:
+      1: 100436
+    second: heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_02__TargetLctr
+  - first:
+      1: 100438
+    second: heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_02_Ctrl
+  - first:
+      1: 100440
+    second: heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_03__AimLctr
+  - first:
+      1: 100442
+    second: heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_03__TargetLctr
+  - first:
+      1: 100444
+    second: heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_03_Ctrl
+  - first:
+      1: 100446
+    second: heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_04__AimLctr
+  - first:
+      1: 100448
+    second: heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_04__TargetLctr
+  - first:
+      1: 100450
+    second: heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_04_Ctrl
+  - first:
+      1: 100452
+    second: heart_0002_rig_0001:RRM_r_legs
+  - first:
+      1: 100454
+    second: heart_0002_rig_0001:RRM_r_legs_AimLctr
+  - first:
+      1: 100456
+    second: heart_0002_rig_0001:RRM_r_legs_Ankle
+  - first:
+      1: 100458
+    second: heart_0002_rig_0001:RRM_r_legs_Ankle_RRM_r_legs_Ball_AimLctr
+  - first:
+      1: 100460
+    second: heart_0002_rig_0001:RRM_r_legs_Ankle_RRM_r_legs_Ball_TargetLctr
+  - first:
+      1: 100462
+    second: heart_0002_rig_0001:RRM_r_legs_Ankle_RRM_r_legs_BallCtrl
+  - first:
+      1: 100464
+    second: heart_0002_rig_0001:RRM_r_legs_AnkleGrp
+  - first:
+      1: 100466
+    second: heart_0002_rig_0001:RRM_r_legs_Ball
+  - first:
+      1: 100468
+    second: heart_0002_rig_0001:RRM_r_legs_Ball_RRM_r_legs_Toe_AimLctr
+  - first:
+      1: 100470
+    second: heart_0002_rig_0001:RRM_r_legs_Ball_RRM_r_legs_Toe_TargetLctr
+  - first:
+      1: 100472
+    second: heart_0002_rig_0001:RRM_r_legs_Ball_RRM_r_legs_ToeCtrl
+  - first:
+      1: 100474
+    second: heart_0002_rig_0001:RRM_r_legs_ConnectorGrp
+  - first:
+      1: 100476
+    second: heart_0002_rig_0001:RRM_r_legs_FootLeftTilt
+  - first:
+      1: 100478
+    second: heart_0002_rig_0001:RRM_r_legs_FootRightTilt
+  - first:
+      1: 100480
+    second: heart_0002_rig_0001:RRM_r_legs_Ground
+  - first:
+      1: 100482
+    second: heart_0002_rig_0001:RRM_r_legs_GroundGrp
+  - first:
+      1: 100484
+    second: heart_0002_rig_0001:RRM_r_legs_GroundGrp2
+  - first:
+      1: 100486
+    second: heart_0002_rig_0001:RRM_r_legs_HeelPivot
+  - first:
+      1: 100488
+    second: heart_0002_rig_0001:RRM_r_legs_Hip
+  - first:
+      1: 100490
+    second: heart_0002_rig_0001:RRM_r_legs_Hip_RRM_r_legs_Knee_AimLctr
+  - first:
+      1: 100492
+    second: heart_0002_rig_0001:RRM_r_legs_Hip_RRM_r_legs_Knee_TargetLctr
+  - first:
+      1: 100494
+    second: heart_0002_rig_0001:RRM_r_legs_Hip_RRM_r_legs_KneeCtrl
+  - first:
+      1: 100496
+    second: heart_0002_rig_0001:RRM_r_legs_HipGrp
+  - first:
+      1: 100498
+    second: heart_0002_rig_0001:RRM_r_legs_Knee
+  - first:
+      1: 100500
+    second: heart_0002_rig_0001:RRM_r_legs_Knee_RRM_r_legs_Ankle_AimLctr
+  - first:
+      1: 100502
+    second: heart_0002_rig_0001:RRM_r_legs_Knee_RRM_r_legs_Ankle_TargetLctr
+  - first:
+      1: 100504
+    second: heart_0002_rig_0001:RRM_r_legs_Knee_RRM_r_legs_AnkleCtrl
+  - first:
+      1: 100506
+    second: heart_0002_rig_0001:RRM_r_legs_KneeAimLctr
+  - first:
+      1: 100508
+    second: heart_0002_rig_0001:RRM_r_legs_KneeAimLctrGrp
+  - first:
+      1: 100510
+    second: heart_0002_rig_0001:RRM_r_legs_KneeGrp
+  - first:
+      1: 100512
+    second: heart_0002_rig_0001:RRM_r_legs_Parent
+  - first:
+      1: 100514
+    second: heart_0002_rig_0001:RRM_r_legs_Parent_RRM_r_legs_Hip_AimLctr
+  - first:
+      1: 100516
+    second: heart_0002_rig_0001:RRM_r_legs_Parent_RRM_r_legs_Hip_TargetLctr
+  - first:
+      1: 100518
+    second: heart_0002_rig_0001:RRM_r_legs_Parent_RRM_r_legs_HipCtrl
+  - first:
+      1: 100520
+    second: heart_0002_rig_0001:RRM_r_legs_Toe
+  - first:
+      1: 100522
+    second: heart_0002_rig_0001:RRM_ROOT
+  - first:
+      1: 100524
+    second: heart_0002_rig_0001:RRM_ROOT_RRM_l_legs_Parent_AimLctr
+  - first:
+      1: 100526
+    second: heart_0002_rig_0001:RRM_ROOT_RRM_l_legs_Parent_TargetLctr
+  - first:
+      1: 100528
+    second: heart_0002_rig_0001:RRM_ROOT_RRM_l_legs_ParentCtrl
+  - first:
+      1: 100530
+    second: heart_0002_rig_0001:RRM_ROOT_RRM_r_legs_Parent_AimLctr
+  - first:
+      1: 100532
+    second: heart_0002_rig_0001:RRM_ROOT_RRM_r_legs_Parent_TargetLctr
+  - first:
+      1: 100534
+    second: heart_0002_rig_0001:RRM_ROOT_RRM_r_legs_ParentCtrl
+  - first:
+      1: 100536
+    second: heart_0002_rig_0001:RRM_ROOT_RRM_spine_Parent_AimLctr
+  - first:
+      1: 100538
+    second: heart_0002_rig_0001:RRM_ROOT_RRM_spine_Parent_TargetLctr
+  - first:
+      1: 100540
+    second: heart_0002_rig_0001:RRM_ROOT_RRM_spine_ParentCtrl
+  - first:
+      1: 100542
+    second: heart_0002_rig_0001:RRM_spine
+  - first:
+      1: 100544
+    second: heart_0002_rig_0001:RRM_spine_01
+  - first:
+      1: 100546
+    second: heart_0002_rig_0001:RRM_spine_01_RRM_l_arm_Parent_AimLctr
+  - first:
+      1: 100548
+    second: heart_0002_rig_0001:RRM_spine_01_RRM_l_arm_Parent_TargetLctr
+  - first:
+      1: 100550
+    second: heart_0002_rig_0001:RRM_spine_01_RRM_l_arm_ParentCtrl
+  - first:
+      1: 100552
+    second: heart_0002_rig_0001:RRM_spine_01_RRM_r_arm_Parent_AimLctr
+  - first:
+      1: 100554
+    second: heart_0002_rig_0001:RRM_spine_01_RRM_r_arm_Parent_TargetLctr
+  - first:
+      1: 100556
+    second: heart_0002_rig_0001:RRM_spine_01_RRM_r_arm_ParentCtrl
+  - first:
+      1: 100558
+    second: heart_0002_rig_0001:RRM_spine_01Grp
+  - first:
+      1: 100560
+    second: heart_0002_rig_0001:RRM_spine_ConnectorGrp
+  - first:
+      1: 100562
+    second: heart_0002_rig_0001:RRM_spine_Parent
+  - first:
+      1: 100564
+    second: heart_0002_rig_0001:RRM_spine_Parent_RRM_spine_01_AimLctr
+  - first:
+      1: 100566
+    second: heart_0002_rig_0001:RRM_spine_Parent_RRM_spine_01_TargetLctr
+  - first:
+      1: 100568
+    second: heart_0002_rig_0001:RRM_spine_Parent_RRM_spine_01Ctrl
+  - first:
+      1: 100570
+    second: heart_0002_rig_0001:RRM_spine_Top
+  - first:
+      1: 100572
+    second: heart_0002_rig_0001:teeth_ctrl
+  - first:
+      1: 100574
+    second: heart_0002_rig_0001:teeth_down_grp_02
+  - first:
+      1: 100576
+    second: heart_0002_rig_0001:teeth_grp_02
+  - first:
+      1: 100578
+    second: heart_0002_rig_0001:v001:polySurface14
+  - first:
+      1: 100580
+    second: heart_0002_rig_0001:v001:polySurface16
+  - first:
+      1: 100582
+    second: heart_0002_rig_0001:v001:polySurface17
+  - first:
+      1: 100584
+    second: //RootNode
+  - first:
+      1: 100586
+    second: stick:nurbsCircle1
+  - first:
+      1: 100588
+    second: stick:nurbsCircle2
+  - first:
+      1: 100590
+    second: stick:pTorus1
+  - first:
+      4: 400000
+    second: heart_0002_rig_0001:cc_teeth
+  - first:
+      4: 400002
+    second: heart_0002_rig_0001:dil:dil:v001_0001:normal:Group21632
+  - first:
+      4: 400004
+    second: heart_0002_rig_0001:group1
+  - first:
+      4: 400006
+    second: heart_0002_rig_0001:heart
+  - first:
+      4: 400008
+    second: heart_0002_rig_0001:heart_l_arm_ClavicleSHJnt
+  - first:
+      4: 400010
+    second: heart_0002_rig_0001:heart_l_arm_ElbowSHJnt
+  - first:
+      4: 400012
+    second: heart_0002_rig_0001:heart_l_arm_ShoulderSHJnt
+  - first:
+      4: 400014
+    second: heart_0002_rig_0001:heart_l_arm_WristSHJnt
+  - first:
+      4: 400016
+    second: heart_0002_rig_0001:heart_l_finger_01_01SHJnt
+  - first:
+      4: 400018
+    second: heart_0002_rig_0001:heart_l_finger_01_02SHJnt
+  - first:
+      4: 400020
+    second: heart_0002_rig_0001:heart_l_finger_02_01SHJnt
+  - first:
+      4: 400022
+    second: heart_0002_rig_0001:heart_l_finger_02_02SHJnt
+  - first:
+      4: 400024
+    second: heart_0002_rig_0001:heart_l_finger_03_01SHJnt
+  - first:
+      4: 400026
+    second: heart_0002_rig_0001:heart_l_finger_03_02SHJnt
+  - first:
+      4: 400028
+    second: heart_0002_rig_0001:heart_l_finger_04_01SHJnt
+  - first:
+      4: 400030
+    second: heart_0002_rig_0001:heart_l_finger_04_02SHJnt
+  - first:
+      4: 400032
+    second: heart_0002_rig_0001:heart_l_legs_AnkleSHJnt
+  - first:
+      4: 400034
+    second: heart_0002_rig_0001:heart_l_legs_BallSHJnt
+  - first:
+      4: 400036
+    second: heart_0002_rig_0001:heart_l_legs_HipSHJnt
+  - first:
+      4: 400038
+    second: heart_0002_rig_0001:heart_l_legs_KneeSHJnt
+  - first:
+      4: 400040
+    second: heart_0002_rig_0001:heart_l_legs_ToeSHJnt
+  - first:
+      4: 400042
+    second: heart_0002_rig_0001:heart_r_arm_ClavicleSHJnt
+  - first:
+      4: 400044
+    second: heart_0002_rig_0001:heart_r_arm_ElbowSHJnt
+  - first:
+      4: 400046
+    second: heart_0002_rig_0001:heart_r_arm_ShoulderSHJnt
+  - first:
+      4: 400048
+    second: heart_0002_rig_0001:heart_r_arm_WristSHJnt
+  - first:
+      4: 400050
+    second: heart_0002_rig_0001:heart_r_finger_01_01SHJnt
+  - first:
+      4: 400052
+    second: heart_0002_rig_0001:heart_r_finger_01_02SHJnt
+  - first:
+      4: 400054
+    second: heart_0002_rig_0001:heart_r_finger_02_01SHJnt
+  - first:
+      4: 400056
+    second: heart_0002_rig_0001:heart_r_finger_02_02SHJnt
+  - first:
+      4: 400058
+    second: heart_0002_rig_0001:heart_r_finger_03_01SHJnt
+  - first:
+      4: 400060
+    second: heart_0002_rig_0001:heart_r_finger_03_02SHJnt
+  - first:
+      4: 400062
+    second: heart_0002_rig_0001:heart_r_finger_04_01SHJnt
+  - first:
+      4: 400064
+    second: heart_0002_rig_0001:heart_r_finger_04_02SHJnt
+  - first:
+      4: 400066
+    second: heart_0002_rig_0001:heart_r_legs_AnkleSHJnt
+  - first:
+      4: 400068
+    second: heart_0002_rig_0001:heart_r_legs_BallSHJnt
+  - first:
+      4: 400070
+    second: heart_0002_rig_0001:heart_r_legs_HipSHJnt
+  - first:
+      4: 400072
+    second: heart_0002_rig_0001:heart_r_legs_KneeSHJnt
+  - first:
+      4: 400074
+    second: heart_0002_rig_0001:heart_r_legs_ToeSHJnt
+  - first:
+      4: 400076
+    second: heart_0002_rig_0001:heart_ROOTSHJnt
+  - first:
+      4: 400078
+    second: heart_0002_rig_0001:heart_SHJntGrp
+  - first:
+      4: 400080
+    second: heart_0002_rig_0001:heart_spine_01SHJnt
+  - first:
+      4: 400082
+    second: heart_0002_rig_0001:heart_spine_TopSHJnt
+  - first:
+      4: 400084
+    second: heart_0002_rig_0001:L_eye
+  - first:
+      4: 400086
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:group1
+  - first:
+      4: 400088
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube1
+  - first:
+      4: 400090
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube10
+  - first:
+      4: 400092
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube11
+  - first:
+      4: 400094
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube2
+  - first:
+      4: 400096
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube3
+  - first:
+      4: 400098
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube4
+  - first:
+      4: 400100
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube5
+  - first:
+      4: 400102
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube6
+  - first:
+      4: 400104
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube7
+  - first:
+      4: 400106
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube9
+  - first:
+      4: 400108
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:polySurface13
+  - first:
+      4: 400110
+    second: heart_0002_rig_0001:R_eye2
+  - first:
+      4: 400112
+    second: heart_0002_rig_0001:RRM_arm
+  - first:
+      4: 400114
+    second: heart_0002_rig_0001:RRM_COG
+  - first:
+      4: 400116
+    second: heart_0002_rig_0001:RRM_finger
+  - first:
+      4: 400118
+    second: heart_0002_rig_0001:RRM_l_arm
+  - first:
+      4: 400120
+    second: heart_0002_rig_0001:RRM_l_arm_AimLctr
+  - first:
+      4: 400122
+    second: heart_0002_rig_0001:RRM_l_arm_Clavicle
+  - first:
+      4: 400124
+    second: heart_0002_rig_0001:RRM_l_arm_Clavicle_RRM_l_arm_Shoulder_AimLctr
+  - first:
+      4: 400126
+    second: heart_0002_rig_0001:RRM_l_arm_Clavicle_RRM_l_arm_Shoulder_TargetLctr
+  - first:
+      4: 400128
+    second: heart_0002_rig_0001:RRM_l_arm_Clavicle_RRM_l_arm_ShoulderCtrl
+  - first:
+      4: 400130
+    second: heart_0002_rig_0001:RRM_l_arm_ClavicleGrp
+  - first:
+      4: 400132
+    second: heart_0002_rig_0001:RRM_l_arm_ConnectorGrp
+  - first:
+      4: 400134
+    second: heart_0002_rig_0001:RRM_l_arm_Elbow
+  - first:
+      4: 400136
+    second: heart_0002_rig_0001:RRM_l_arm_Elbow_RRM_l_arm_Wrist_AimLctr
+  - first:
+      4: 400138
+    second: heart_0002_rig_0001:RRM_l_arm_Elbow_RRM_l_arm_Wrist_TargetLctr
+  - first:
+      4: 400140
+    second: heart_0002_rig_0001:RRM_l_arm_Elbow_RRM_l_arm_WristCtrl
+  - first:
+      4: 400142
+    second: heart_0002_rig_0001:RRM_l_arm_ElbowAimLctr
+  - first:
+      4: 400144
+    second: heart_0002_rig_0001:RRM_l_arm_ElbowAimLctrGrp
+  - first:
+      4: 400146
+    second: heart_0002_rig_0001:RRM_l_arm_ElbowGrp
+  - first:
+      4: 400148
+    second: heart_0002_rig_0001:RRM_l_arm_Parent
+  - first:
+      4: 400150
+    second: heart_0002_rig_0001:RRM_l_arm_Parent_RRM_l_arm_Clavicle_AimLctr
+  - first:
+      4: 400152
+    second: heart_0002_rig_0001:RRM_l_arm_Parent_RRM_l_arm_Clavicle_TargetLctr
+  - first:
+      4: 400154
+    second: heart_0002_rig_0001:RRM_l_arm_Parent_RRM_l_arm_ClavicleCtrl
+  - first:
+      4: 400156
+    second: heart_0002_rig_0001:RRM_l_arm_Shoulder
+  - first:
+      4: 400158
+    second: heart_0002_rig_0001:RRM_l_arm_Shoulder_RRM_l_arm_Elbow_AimLctr
+  - first:
+      4: 400160
+    second: heart_0002_rig_0001:RRM_l_arm_Shoulder_RRM_l_arm_Elbow_TargetLctr
+  - first:
+      4: 400162
+    second: heart_0002_rig_0001:RRM_l_arm_Shoulder_RRM_l_arm_ElbowCtrl
+  - first:
+      4: 400164
+    second: heart_0002_rig_0001:RRM_l_arm_ShoulderGrp
+  - first:
+      4: 400166
+    second: heart_0002_rig_0001:RRM_l_arm_Wrist
+  - first:
+      4: 400168
+    second: heart_0002_rig_0001:RRM_l_arm_Wrist_RRM_l_finger_Parent_AimLctr
+  - first:
+      4: 400170
+    second: heart_0002_rig_0001:RRM_l_arm_Wrist_RRM_l_finger_Parent_TargetLctr
+  - first:
+      4: 400172
+    second: heart_0002_rig_0001:RRM_l_arm_Wrist_RRM_l_finger_ParentCtrl
+  - first:
+      4: 400174
+    second: heart_0002_rig_0001:RRM_l_arm_WristGrp
+  - first:
+      4: 400176
+    second: heart_0002_rig_0001:RRM_l_finger
+  - first:
+      4: 400178
+    second: heart_0002_rig_0001:RRM_l_finger_01_01
+  - first:
+      4: 400180
+    second: heart_0002_rig_0001:RRM_l_finger_01_02
+  - first:
+      4: 400182
+    second: heart_0002_rig_0001:RRM_l_finger_01__RRM_l_finger_01_02_AimLctr
+  - first:
+      4: 400184
+    second: heart_0002_rig_0001:RRM_l_finger_01__RRM_l_finger_01_02_TargetLctr
+  - first:
+      4: 400186
+    second: heart_0002_rig_0001:RRM_l_finger_01__RRM_l_finger_01_02Ctrl
+  - first:
+      4: 400188
+    second: heart_0002_rig_0001:RRM_l_finger_02_01
+  - first:
+      4: 400190
+    second: heart_0002_rig_0001:RRM_l_finger_02_02
+  - first:
+      4: 400192
+    second: heart_0002_rig_0001:RRM_l_finger_02__RRM_l_finger_02_02_AimLctr
+  - first:
+      4: 400194
+    second: heart_0002_rig_0001:RRM_l_finger_02__RRM_l_finger_02_02_TargetLctr
+  - first:
+      4: 400196
+    second: heart_0002_rig_0001:RRM_l_finger_02__RRM_l_finger_02_02Ctrl
+  - first:
+      4: 400198
+    second: heart_0002_rig_0001:RRM_l_finger_03_01
+  - first:
+      4: 400200
+    second: heart_0002_rig_0001:RRM_l_finger_03_02
+  - first:
+      4: 400202
+    second: heart_0002_rig_0001:RRM_l_finger_03__RRM_l_finger_03_02_AimLctr
+  - first:
+      4: 400204
+    second: heart_0002_rig_0001:RRM_l_finger_03__RRM_l_finger_03_02_TargetLctr
+  - first:
+      4: 400206
+    second: heart_0002_rig_0001:RRM_l_finger_03__RRM_l_finger_03_02Ctrl
+  - first:
+      4: 400208
+    second: heart_0002_rig_0001:RRM_l_finger_04_01
+  - first:
+      4: 400210
+    second: heart_0002_rig_0001:RRM_l_finger_04_02
+  - first:
+      4: 400212
+    second: heart_0002_rig_0001:RRM_l_finger_04__RRM_l_finger_04_02_AimLctr
+  - first:
+      4: 400214
+    second: heart_0002_rig_0001:RRM_l_finger_04__RRM_l_finger_04_02_TargetLctr
+  - first:
+      4: 400216
+    second: heart_0002_rig_0001:RRM_l_finger_04__RRM_l_finger_04_02Ctrl
+  - first:
+      4: 400218
+    second: heart_0002_rig_0001:RRM_l_finger_ConnectorGrp
+  - first:
+      4: 400220
+    second: heart_0002_rig_0001:RRM_l_finger_Grp
+  - first:
+      4: 400222
+    second: heart_0002_rig_0001:RRM_l_finger_Parent
+  - first:
+      4: 400224
+    second: heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_01__AimLctr
+  - first:
+      4: 400226
+    second: heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_01__TargetLctr
+  - first:
+      4: 400228
+    second: heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_01_Ctrl
+  - first:
+      4: 400230
+    second: heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_02__AimLctr
+  - first:
+      4: 400232
+    second: heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_02__TargetLctr
+  - first:
+      4: 400234
+    second: heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_02_Ctrl
+  - first:
+      4: 400236
+    second: heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_03__AimLctr
+  - first:
+      4: 400238
+    second: heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_03__TargetLctr
+  - first:
+      4: 400240
+    second: heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_03_Ctrl
+  - first:
+      4: 400242
+    second: heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_04__AimLctr
+  - first:
+      4: 400244
+    second: heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_04__TargetLctr
+  - first:
+      4: 400246
+    second: heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_04_Ctrl
+  - first:
+      4: 400248
+    second: heart_0002_rig_0001:RRM_l_legs
+  - first:
+      4: 400250
+    second: heart_0002_rig_0001:RRM_l_legs_AimLctr
+  - first:
+      4: 400252
+    second: heart_0002_rig_0001:RRM_l_legs_Ankle
+  - first:
+      4: 400254
+    second: heart_0002_rig_0001:RRM_l_legs_Ankle_RRM_l_legs_Ball_AimLctr
+  - first:
+      4: 400256
+    second: heart_0002_rig_0001:RRM_l_legs_Ankle_RRM_l_legs_Ball_TargetLctr
+  - first:
+      4: 400258
+    second: heart_0002_rig_0001:RRM_l_legs_Ankle_RRM_l_legs_BallCtrl
+  - first:
+      4: 400260
+    second: heart_0002_rig_0001:RRM_l_legs_AnkleGrp
+  - first:
+      4: 400262
+    second: heart_0002_rig_0001:RRM_l_legs_Ball
+  - first:
+      4: 400264
+    second: heart_0002_rig_0001:RRM_l_legs_Ball_RRM_l_legs_Toe_AimLctr
+  - first:
+      4: 400266
+    second: heart_0002_rig_0001:RRM_l_legs_Ball_RRM_l_legs_Toe_TargetLctr
+  - first:
+      4: 400268
+    second: heart_0002_rig_0001:RRM_l_legs_Ball_RRM_l_legs_ToeCtrl
+  - first:
+      4: 400270
+    second: heart_0002_rig_0001:RRM_l_legs_ConnectorGrp
+  - first:
+      4: 400272
+    second: heart_0002_rig_0001:RRM_l_legs_FootLeftTilt
+  - first:
+      4: 400274
+    second: heart_0002_rig_0001:RRM_l_legs_FootRightTilt
+  - first:
+      4: 400276
+    second: heart_0002_rig_0001:RRM_l_legs_Ground
+  - first:
+      4: 400278
+    second: heart_0002_rig_0001:RRM_l_legs_GroundGrp
+  - first:
+      4: 400280
+    second: heart_0002_rig_0001:RRM_l_legs_GroundGrp2
+  - first:
+      4: 400282
+    second: heart_0002_rig_0001:RRM_l_legs_HeelPivot
+  - first:
+      4: 400284
+    second: heart_0002_rig_0001:RRM_l_legs_Hip
+  - first:
+      4: 400286
+    second: heart_0002_rig_0001:RRM_l_legs_Hip_RRM_l_legs_Knee_AimLctr
+  - first:
+      4: 400288
+    second: heart_0002_rig_0001:RRM_l_legs_Hip_RRM_l_legs_Knee_TargetLctr
+  - first:
+      4: 400290
+    second: heart_0002_rig_0001:RRM_l_legs_Hip_RRM_l_legs_KneeCtrl
+  - first:
+      4: 400292
+    second: heart_0002_rig_0001:RRM_l_legs_HipGrp
+  - first:
+      4: 400294
+    second: heart_0002_rig_0001:RRM_l_legs_Knee
+  - first:
+      4: 400296
+    second: heart_0002_rig_0001:RRM_l_legs_Knee_RRM_l_legs_Ankle_AimLctr
+  - first:
+      4: 400298
+    second: heart_0002_rig_0001:RRM_l_legs_Knee_RRM_l_legs_Ankle_TargetLctr
+  - first:
+      4: 400300
+    second: heart_0002_rig_0001:RRM_l_legs_Knee_RRM_l_legs_AnkleCtrl
+  - first:
+      4: 400302
+    second: heart_0002_rig_0001:RRM_l_legs_KneeAimLctr
+  - first:
+      4: 400304
+    second: heart_0002_rig_0001:RRM_l_legs_KneeAimLctrGrp
+  - first:
+      4: 400306
+    second: heart_0002_rig_0001:RRM_l_legs_KneeGrp
+  - first:
+      4: 400308
+    second: heart_0002_rig_0001:RRM_l_legs_Parent
+  - first:
+      4: 400310
+    second: heart_0002_rig_0001:RRM_l_legs_Parent_RRM_l_legs_Hip_AimLctr
+  - first:
+      4: 400312
+    second: heart_0002_rig_0001:RRM_l_legs_Parent_RRM_l_legs_Hip_TargetLctr
+  - first:
+      4: 400314
+    second: heart_0002_rig_0001:RRM_l_legs_Parent_RRM_l_legs_HipCtrl
+  - first:
+      4: 400316
+    second: heart_0002_rig_0001:RRM_l_legs_Toe
+  - first:
+      4: 400318
+    second: heart_0002_rig_0001:RRM_legs
+  - first:
+      4: 400320
+    second: heart_0002_rig_0001:RRM_MAIN
+  - first:
+      4: 400322
+    second: heart_0002_rig_0001:RRM_r_arm
+  - first:
+      4: 400324
+    second: heart_0002_rig_0001:RRM_r_arm_AimLctr
+  - first:
+      4: 400326
+    second: heart_0002_rig_0001:RRM_r_arm_Clavicle
+  - first:
+      4: 400328
+    second: heart_0002_rig_0001:RRM_r_arm_Clavicle_RRM_r_arm_Shoulder_AimLctr
+  - first:
+      4: 400330
+    second: heart_0002_rig_0001:RRM_r_arm_Clavicle_RRM_r_arm_Shoulder_TargetLctr
+  - first:
+      4: 400332
+    second: heart_0002_rig_0001:RRM_r_arm_Clavicle_RRM_r_arm_ShoulderCtrl
+  - first:
+      4: 400334
+    second: heart_0002_rig_0001:RRM_r_arm_ClavicleGrp
+  - first:
+      4: 400336
+    second: heart_0002_rig_0001:RRM_r_arm_ConnectorGrp
+  - first:
+      4: 400338
+    second: heart_0002_rig_0001:RRM_r_arm_Elbow
+  - first:
+      4: 400340
+    second: heart_0002_rig_0001:RRM_r_arm_Elbow_RRM_r_arm_Wrist_AimLctr
+  - first:
+      4: 400342
+    second: heart_0002_rig_0001:RRM_r_arm_Elbow_RRM_r_arm_Wrist_TargetLctr
+  - first:
+      4: 400344
+    second: heart_0002_rig_0001:RRM_r_arm_Elbow_RRM_r_arm_WristCtrl
+  - first:
+      4: 400346
+    second: heart_0002_rig_0001:RRM_r_arm_ElbowAimLctr
+  - first:
+      4: 400348
+    second: heart_0002_rig_0001:RRM_r_arm_ElbowAimLctrGrp
+  - first:
+      4: 400350
+    second: heart_0002_rig_0001:RRM_r_arm_ElbowGrp
+  - first:
+      4: 400352
+    second: heart_0002_rig_0001:RRM_r_arm_Parent
+  - first:
+      4: 400354
+    second: heart_0002_rig_0001:RRM_r_arm_Parent_RRM_r_arm_Clavicle_AimLctr
+  - first:
+      4: 400356
+    second: heart_0002_rig_0001:RRM_r_arm_Parent_RRM_r_arm_Clavicle_TargetLctr
+  - first:
+      4: 400358
+    second: heart_0002_rig_0001:RRM_r_arm_Parent_RRM_r_arm_ClavicleCtrl
+  - first:
+      4: 400360
+    second: heart_0002_rig_0001:RRM_r_arm_Shoulder
+  - first:
+      4: 400362
+    second: heart_0002_rig_0001:RRM_r_arm_Shoulder_RRM_r_arm_Elbow_AimLctr
+  - first:
+      4: 400364
+    second: heart_0002_rig_0001:RRM_r_arm_Shoulder_RRM_r_arm_Elbow_TargetLctr
+  - first:
+      4: 400366
+    second: heart_0002_rig_0001:RRM_r_arm_Shoulder_RRM_r_arm_ElbowCtrl
+  - first:
+      4: 400368
+    second: heart_0002_rig_0001:RRM_r_arm_ShoulderGrp
+  - first:
+      4: 400370
+    second: heart_0002_rig_0001:RRM_r_arm_Wrist
+  - first:
+      4: 400372
+    second: heart_0002_rig_0001:RRM_r_arm_Wrist_RRM_r_finger_Parent_AimLctr
+  - first:
+      4: 400374
+    second: heart_0002_rig_0001:RRM_r_arm_Wrist_RRM_r_finger_Parent_TargetLctr
+  - first:
+      4: 400376
+    second: heart_0002_rig_0001:RRM_r_arm_Wrist_RRM_r_finger_ParentCtrl
+  - first:
+      4: 400378
+    second: heart_0002_rig_0001:RRM_r_arm_WristGrp
+  - first:
+      4: 400380
+    second: heart_0002_rig_0001:RRM_r_finger
+  - first:
+      4: 400382
+    second: heart_0002_rig_0001:RRM_r_finger_01_01
+  - first:
+      4: 400384
+    second: heart_0002_rig_0001:RRM_r_finger_01_02
+  - first:
+      4: 400386
+    second: heart_0002_rig_0001:RRM_r_finger_01__RRM_r_finger_01_02_AimLctr
+  - first:
+      4: 400388
+    second: heart_0002_rig_0001:RRM_r_finger_01__RRM_r_finger_01_02_TargetLctr
+  - first:
+      4: 400390
+    second: heart_0002_rig_0001:RRM_r_finger_01__RRM_r_finger_01_02Ctrl
+  - first:
+      4: 400392
+    second: heart_0002_rig_0001:RRM_r_finger_02_01
+  - first:
+      4: 400394
+    second: heart_0002_rig_0001:RRM_r_finger_02_02
+  - first:
+      4: 400396
+    second: heart_0002_rig_0001:RRM_r_finger_02__RRM_r_finger_02_02_AimLctr
+  - first:
+      4: 400398
+    second: heart_0002_rig_0001:RRM_r_finger_02__RRM_r_finger_02_02_TargetLctr
+  - first:
+      4: 400400
+    second: heart_0002_rig_0001:RRM_r_finger_02__RRM_r_finger_02_02Ctrl
+  - first:
+      4: 400402
+    second: heart_0002_rig_0001:RRM_r_finger_03_01
+  - first:
+      4: 400404
+    second: heart_0002_rig_0001:RRM_r_finger_03_02
+  - first:
+      4: 400406
+    second: heart_0002_rig_0001:RRM_r_finger_03__RRM_r_finger_03_02_AimLctr
+  - first:
+      4: 400408
+    second: heart_0002_rig_0001:RRM_r_finger_03__RRM_r_finger_03_02_TargetLctr
+  - first:
+      4: 400410
+    second: heart_0002_rig_0001:RRM_r_finger_03__RRM_r_finger_03_02Ctrl
+  - first:
+      4: 400412
+    second: heart_0002_rig_0001:RRM_r_finger_04_01
+  - first:
+      4: 400414
+    second: heart_0002_rig_0001:RRM_r_finger_04_02
+  - first:
+      4: 400416
+    second: heart_0002_rig_0001:RRM_r_finger_04__RRM_r_finger_04_02_AimLctr
+  - first:
+      4: 400418
+    second: heart_0002_rig_0001:RRM_r_finger_04__RRM_r_finger_04_02_TargetLctr
+  - first:
+      4: 400420
+    second: heart_0002_rig_0001:RRM_r_finger_04__RRM_r_finger_04_02Ctrl
+  - first:
+      4: 400422
+    second: heart_0002_rig_0001:RRM_r_finger_ConnectorGrp
+  - first:
+      4: 400424
+    second: heart_0002_rig_0001:RRM_r_finger_Grp
+  - first:
+      4: 400426
+    second: heart_0002_rig_0001:RRM_r_finger_Parent
+  - first:
+      4: 400428
+    second: heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_01__AimLctr
+  - first:
+      4: 400430
+    second: heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_01__TargetLctr
+  - first:
+      4: 400432
+    second: heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_01_Ctrl
+  - first:
+      4: 400434
+    second: heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_02__AimLctr
+  - first:
+      4: 400436
+    second: heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_02__TargetLctr
+  - first:
+      4: 400438
+    second: heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_02_Ctrl
+  - first:
+      4: 400440
+    second: heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_03__AimLctr
+  - first:
+      4: 400442
+    second: heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_03__TargetLctr
+  - first:
+      4: 400444
+    second: heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_03_Ctrl
+  - first:
+      4: 400446
+    second: heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_04__AimLctr
+  - first:
+      4: 400448
+    second: heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_04__TargetLctr
+  - first:
+      4: 400450
+    second: heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_04_Ctrl
+  - first:
+      4: 400452
+    second: heart_0002_rig_0001:RRM_r_legs
+  - first:
+      4: 400454
+    second: heart_0002_rig_0001:RRM_r_legs_AimLctr
+  - first:
+      4: 400456
+    second: heart_0002_rig_0001:RRM_r_legs_Ankle
+  - first:
+      4: 400458
+    second: heart_0002_rig_0001:RRM_r_legs_Ankle_RRM_r_legs_Ball_AimLctr
+  - first:
+      4: 400460
+    second: heart_0002_rig_0001:RRM_r_legs_Ankle_RRM_r_legs_Ball_TargetLctr
+  - first:
+      4: 400462
+    second: heart_0002_rig_0001:RRM_r_legs_Ankle_RRM_r_legs_BallCtrl
+  - first:
+      4: 400464
+    second: heart_0002_rig_0001:RRM_r_legs_AnkleGrp
+  - first:
+      4: 400466
+    second: heart_0002_rig_0001:RRM_r_legs_Ball
+  - first:
+      4: 400468
+    second: heart_0002_rig_0001:RRM_r_legs_Ball_RRM_r_legs_Toe_AimLctr
+  - first:
+      4: 400470
+    second: heart_0002_rig_0001:RRM_r_legs_Ball_RRM_r_legs_Toe_TargetLctr
+  - first:
+      4: 400472
+    second: heart_0002_rig_0001:RRM_r_legs_Ball_RRM_r_legs_ToeCtrl
+  - first:
+      4: 400474
+    second: heart_0002_rig_0001:RRM_r_legs_ConnectorGrp
+  - first:
+      4: 400476
+    second: heart_0002_rig_0001:RRM_r_legs_FootLeftTilt
+  - first:
+      4: 400478
+    second: heart_0002_rig_0001:RRM_r_legs_FootRightTilt
+  - first:
+      4: 400480
+    second: heart_0002_rig_0001:RRM_r_legs_Ground
+  - first:
+      4: 400482
+    second: heart_0002_rig_0001:RRM_r_legs_GroundGrp
+  - first:
+      4: 400484
+    second: heart_0002_rig_0001:RRM_r_legs_GroundGrp2
+  - first:
+      4: 400486
+    second: heart_0002_rig_0001:RRM_r_legs_HeelPivot
+  - first:
+      4: 400488
+    second: heart_0002_rig_0001:RRM_r_legs_Hip
+  - first:
+      4: 400490
+    second: heart_0002_rig_0001:RRM_r_legs_Hip_RRM_r_legs_Knee_AimLctr
+  - first:
+      4: 400492
+    second: heart_0002_rig_0001:RRM_r_legs_Hip_RRM_r_legs_Knee_TargetLctr
+  - first:
+      4: 400494
+    second: heart_0002_rig_0001:RRM_r_legs_Hip_RRM_r_legs_KneeCtrl
+  - first:
+      4: 400496
+    second: heart_0002_rig_0001:RRM_r_legs_HipGrp
+  - first:
+      4: 400498
+    second: heart_0002_rig_0001:RRM_r_legs_Knee
+  - first:
+      4: 400500
+    second: heart_0002_rig_0001:RRM_r_legs_Knee_RRM_r_legs_Ankle_AimLctr
+  - first:
+      4: 400502
+    second: heart_0002_rig_0001:RRM_r_legs_Knee_RRM_r_legs_Ankle_TargetLctr
+  - first:
+      4: 400504
+    second: heart_0002_rig_0001:RRM_r_legs_Knee_RRM_r_legs_AnkleCtrl
+  - first:
+      4: 400506
+    second: heart_0002_rig_0001:RRM_r_legs_KneeAimLctr
+  - first:
+      4: 400508
+    second: heart_0002_rig_0001:RRM_r_legs_KneeAimLctrGrp
+  - first:
+      4: 400510
+    second: heart_0002_rig_0001:RRM_r_legs_KneeGrp
+  - first:
+      4: 400512
+    second: heart_0002_rig_0001:RRM_r_legs_Parent
+  - first:
+      4: 400514
+    second: heart_0002_rig_0001:RRM_r_legs_Parent_RRM_r_legs_Hip_AimLctr
+  - first:
+      4: 400516
+    second: heart_0002_rig_0001:RRM_r_legs_Parent_RRM_r_legs_Hip_TargetLctr
+  - first:
+      4: 400518
+    second: heart_0002_rig_0001:RRM_r_legs_Parent_RRM_r_legs_HipCtrl
+  - first:
+      4: 400520
+    second: heart_0002_rig_0001:RRM_r_legs_Toe
+  - first:
+      4: 400522
+    second: heart_0002_rig_0001:RRM_ROOT
+  - first:
+      4: 400524
+    second: heart_0002_rig_0001:RRM_ROOT_RRM_l_legs_Parent_AimLctr
+  - first:
+      4: 400526
+    second: heart_0002_rig_0001:RRM_ROOT_RRM_l_legs_Parent_TargetLctr
+  - first:
+      4: 400528
+    second: heart_0002_rig_0001:RRM_ROOT_RRM_l_legs_ParentCtrl
+  - first:
+      4: 400530
+    second: heart_0002_rig_0001:RRM_ROOT_RRM_r_legs_Parent_AimLctr
+  - first:
+      4: 400532
+    second: heart_0002_rig_0001:RRM_ROOT_RRM_r_legs_Parent_TargetLctr
+  - first:
+      4: 400534
+    second: heart_0002_rig_0001:RRM_ROOT_RRM_r_legs_ParentCtrl
+  - first:
+      4: 400536
+    second: heart_0002_rig_0001:RRM_ROOT_RRM_spine_Parent_AimLctr
+  - first:
+      4: 400538
+    second: heart_0002_rig_0001:RRM_ROOT_RRM_spine_Parent_TargetLctr
+  - first:
+      4: 400540
+    second: heart_0002_rig_0001:RRM_ROOT_RRM_spine_ParentCtrl
+  - first:
+      4: 400542
+    second: heart_0002_rig_0001:RRM_spine
+  - first:
+      4: 400544
+    second: heart_0002_rig_0001:RRM_spine_01
+  - first:
+      4: 400546
+    second: heart_0002_rig_0001:RRM_spine_01_RRM_l_arm_Parent_AimLctr
+  - first:
+      4: 400548
+    second: heart_0002_rig_0001:RRM_spine_01_RRM_l_arm_Parent_TargetLctr
+  - first:
+      4: 400550
+    second: heart_0002_rig_0001:RRM_spine_01_RRM_l_arm_ParentCtrl
+  - first:
+      4: 400552
+    second: heart_0002_rig_0001:RRM_spine_01_RRM_r_arm_Parent_AimLctr
+  - first:
+      4: 400554
+    second: heart_0002_rig_0001:RRM_spine_01_RRM_r_arm_Parent_TargetLctr
+  - first:
+      4: 400556
+    second: heart_0002_rig_0001:RRM_spine_01_RRM_r_arm_ParentCtrl
+  - first:
+      4: 400558
+    second: heart_0002_rig_0001:RRM_spine_01Grp
+  - first:
+      4: 400560
+    second: heart_0002_rig_0001:RRM_spine_ConnectorGrp
+  - first:
+      4: 400562
+    second: heart_0002_rig_0001:RRM_spine_Parent
+  - first:
+      4: 400564
+    second: heart_0002_rig_0001:RRM_spine_Parent_RRM_spine_01_AimLctr
+  - first:
+      4: 400566
+    second: heart_0002_rig_0001:RRM_spine_Parent_RRM_spine_01_TargetLctr
+  - first:
+      4: 400568
+    second: heart_0002_rig_0001:RRM_spine_Parent_RRM_spine_01Ctrl
+  - first:
+      4: 400570
+    second: heart_0002_rig_0001:RRM_spine_Top
+  - first:
+      4: 400572
+    second: heart_0002_rig_0001:teeth_ctrl
+  - first:
+      4: 400574
+    second: heart_0002_rig_0001:teeth_down_grp_02
+  - first:
+      4: 400576
+    second: heart_0002_rig_0001:teeth_grp_02
+  - first:
+      4: 400578
+    second: heart_0002_rig_0001:v001:polySurface14
+  - first:
+      4: 400580
+    second: heart_0002_rig_0001:v001:polySurface16
+  - first:
+      4: 400582
+    second: heart_0002_rig_0001:v001:polySurface17
+  - first:
+      4: 400584
+    second: //RootNode
+  - first:
+      4: 400586
+    second: stick:nurbsCircle1
+  - first:
+      4: 400588
+    second: stick:nurbsCircle2
+  - first:
+      4: 400590
+    second: stick:pTorus1
+  - first:
+      23: 2300000
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube1
+  - first:
+      23: 2300002
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube10
+  - first:
+      23: 2300004
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube11
+  - first:
+      23: 2300006
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube2
+  - first:
+      23: 2300008
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube3
+  - first:
+      23: 2300010
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube4
+  - first:
+      23: 2300012
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube5
+  - first:
+      23: 2300014
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube6
+  - first:
+      23: 2300016
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube7
+  - first:
+      23: 2300018
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube9
+  - first:
+      23: 2300020
+    second: stick:pTorus1
+  - first:
+      33: 3300000
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube1
+  - first:
+      33: 3300002
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube10
+  - first:
+      33: 3300004
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube11
+  - first:
+      33: 3300006
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube2
+  - first:
+      33: 3300008
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube3
+  - first:
+      33: 3300010
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube4
+  - first:
+      33: 3300012
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube5
+  - first:
+      33: 3300014
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube6
+  - first:
+      33: 3300016
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube7
+  - first:
+      33: 3300018
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube9
+  - first:
+      33: 3300020
+    second: stick:pTorus1
+  - first:
+      43: 4300000
+    second: heart_0002_rig_0001:v001:polySurface17
+  - first:
+      43: 4300002
+    second: heart_0002_rig_0001:v001:polySurface14
+  - first:
+      43: 4300004
+    second: heart_0002_rig_0001:v001:polySurface16
+  - first:
+      43: 4300006
+    second: heart_0002_rig_0001:dil:dil:v001_0001:normal:Group21632
+  - first:
+      43: 4300008
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:polySurface13
+  - first:
+      43: 4300010
+    second: heart_0002_rig_0001:L_eye
+  - first:
+      43: 4300012
+    second: heart_0002_rig_0001:R_eye2
+  - first:
+      43: 4300014
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube5
+  - first:
+      43: 4300016
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube4
+  - first:
+      43: 4300018
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube3
+  - first:
+      43: 4300020
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube2
+  - first:
+      43: 4300022
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube1
+  - first:
+      43: 4300024
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube6
+  - first:
+      43: 4300026
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube7
+  - first:
+      43: 4300028
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube9
+  - first:
+      43: 4300030
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube10
+  - first:
+      43: 4300032
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube11
+  - first:
+      43: 4300034
+    second: stick:pTorus1
+  - first:
+      74: 7400000
+    second: Dance
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: heart_0002_rig_0001:dil:dil:v001_0001:normal:Group21632
+  - first:
+      137: 13700002
+    second: heart_0002_rig_0001:L_eye
+  - first:
+      137: 13700004
+    second: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:polySurface13
+  - first:
+      137: 13700006
+    second: heart_0002_rig_0001:R_eye2
+  - first:
+      137: 13700008
+    second: heart_0002_rig_0001:v001:polySurface14
+  - first:
+      137: 13700010
+    second: heart_0002_rig_0001:v001:polySurface16
+  - first:
+      137: 13700012
+    second: heart_0002_rig_0001:v001:polySurface17
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: heart_0002_rig_0001_lambert2
+    second: {fileID: 2100000, guid: ebbdec512a77d4f289a34bb123c45949, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert3
+    second: {fileID: 2100000, guid: aabf53ac5a8774ac3889ea323c9f6b0e, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Dance
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 340
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: heart_0002_rig_0001:dil:dil:v001_0001:normal:Group21632
+        weight: 1
+      - path: heart_0002_rig_0001:group1
+        weight: 1
+      - path: heart_0002_rig_0001:group1/heart_0002_rig_0001:v001:polySurface14
+        weight: 1
+      - path: heart_0002_rig_0001:group1/heart_0002_rig_0001:v001:polySurface16
+        weight: 1
+      - path: heart_0002_rig_0001:group1/heart_0002_rig_0001:v001:polySurface17
+        weight: 1
+      - path: heart_0002_rig_0001:heart
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_l_legs_HipSHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_l_legs_HipSHJnt/heart_0002_rig_0001:heart_l_legs_KneeSHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_l_legs_HipSHJnt/heart_0002_rig_0001:heart_l_legs_KneeSHJnt/heart_0002_rig_0001:heart_l_legs_AnkleSHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_l_legs_HipSHJnt/heart_0002_rig_0001:heart_l_legs_KneeSHJnt/heart_0002_rig_0001:heart_l_legs_AnkleSHJnt/heart_0002_rig_0001:heart_l_legs_BallSHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_l_legs_HipSHJnt/heart_0002_rig_0001:heart_l_legs_KneeSHJnt/heart_0002_rig_0001:heart_l_legs_AnkleSHJnt/heart_0002_rig_0001:heart_l_legs_BallSHJnt/heart_0002_rig_0001:heart_l_legs_ToeSHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_r_legs_HipSHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_r_legs_HipSHJnt/heart_0002_rig_0001:heart_r_legs_KneeSHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_r_legs_HipSHJnt/heart_0002_rig_0001:heart_r_legs_KneeSHJnt/heart_0002_rig_0001:heart_r_legs_AnkleSHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_r_legs_HipSHJnt/heart_0002_rig_0001:heart_r_legs_KneeSHJnt/heart_0002_rig_0001:heart_r_legs_AnkleSHJnt/heart_0002_rig_0001:heart_r_legs_BallSHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_r_legs_HipSHJnt/heart_0002_rig_0001:heart_r_legs_KneeSHJnt/heart_0002_rig_0001:heart_r_legs_AnkleSHJnt/heart_0002_rig_0001:heart_r_legs_BallSHJnt/heart_0002_rig_0001:heart_r_legs_ToeSHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_spine_01SHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_spine_01SHJnt/heart_0002_rig_0001:heart_l_arm_ClavicleSHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_spine_01SHJnt/heart_0002_rig_0001:heart_l_arm_ClavicleSHJnt/heart_0002_rig_0001:heart_l_arm_ShoulderSHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_spine_01SHJnt/heart_0002_rig_0001:heart_l_arm_ClavicleSHJnt/heart_0002_rig_0001:heart_l_arm_ShoulderSHJnt/heart_0002_rig_0001:heart_l_arm_ElbowSHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_spine_01SHJnt/heart_0002_rig_0001:heart_l_arm_ClavicleSHJnt/heart_0002_rig_0001:heart_l_arm_ShoulderSHJnt/heart_0002_rig_0001:heart_l_arm_ElbowSHJnt/heart_0002_rig_0001:heart_l_arm_WristSHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_spine_01SHJnt/heart_0002_rig_0001:heart_l_arm_ClavicleSHJnt/heart_0002_rig_0001:heart_l_arm_ShoulderSHJnt/heart_0002_rig_0001:heart_l_arm_ElbowSHJnt/heart_0002_rig_0001:heart_l_arm_WristSHJnt/heart_0002_rig_0001:heart_l_finger_01_01SHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_spine_01SHJnt/heart_0002_rig_0001:heart_l_arm_ClavicleSHJnt/heart_0002_rig_0001:heart_l_arm_ShoulderSHJnt/heart_0002_rig_0001:heart_l_arm_ElbowSHJnt/heart_0002_rig_0001:heart_l_arm_WristSHJnt/heart_0002_rig_0001:heart_l_finger_01_01SHJnt/heart_0002_rig_0001:heart_l_finger_01_02SHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_spine_01SHJnt/heart_0002_rig_0001:heart_l_arm_ClavicleSHJnt/heart_0002_rig_0001:heart_l_arm_ShoulderSHJnt/heart_0002_rig_0001:heart_l_arm_ElbowSHJnt/heart_0002_rig_0001:heart_l_arm_WristSHJnt/heart_0002_rig_0001:heart_l_finger_02_01SHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_spine_01SHJnt/heart_0002_rig_0001:heart_l_arm_ClavicleSHJnt/heart_0002_rig_0001:heart_l_arm_ShoulderSHJnt/heart_0002_rig_0001:heart_l_arm_ElbowSHJnt/heart_0002_rig_0001:heart_l_arm_WristSHJnt/heart_0002_rig_0001:heart_l_finger_02_01SHJnt/heart_0002_rig_0001:heart_l_finger_02_02SHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_spine_01SHJnt/heart_0002_rig_0001:heart_l_arm_ClavicleSHJnt/heart_0002_rig_0001:heart_l_arm_ShoulderSHJnt/heart_0002_rig_0001:heart_l_arm_ElbowSHJnt/heart_0002_rig_0001:heart_l_arm_WristSHJnt/heart_0002_rig_0001:heart_l_finger_03_01SHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_spine_01SHJnt/heart_0002_rig_0001:heart_l_arm_ClavicleSHJnt/heart_0002_rig_0001:heart_l_arm_ShoulderSHJnt/heart_0002_rig_0001:heart_l_arm_ElbowSHJnt/heart_0002_rig_0001:heart_l_arm_WristSHJnt/heart_0002_rig_0001:heart_l_finger_03_01SHJnt/heart_0002_rig_0001:heart_l_finger_03_02SHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_spine_01SHJnt/heart_0002_rig_0001:heart_l_arm_ClavicleSHJnt/heart_0002_rig_0001:heart_l_arm_ShoulderSHJnt/heart_0002_rig_0001:heart_l_arm_ElbowSHJnt/heart_0002_rig_0001:heart_l_arm_WristSHJnt/heart_0002_rig_0001:heart_l_finger_04_01SHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_spine_01SHJnt/heart_0002_rig_0001:heart_l_arm_ClavicleSHJnt/heart_0002_rig_0001:heart_l_arm_ShoulderSHJnt/heart_0002_rig_0001:heart_l_arm_ElbowSHJnt/heart_0002_rig_0001:heart_l_arm_WristSHJnt/heart_0002_rig_0001:heart_l_finger_04_01SHJnt/heart_0002_rig_0001:heart_l_finger_04_02SHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_spine_01SHJnt/heart_0002_rig_0001:heart_r_arm_ClavicleSHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_spine_01SHJnt/heart_0002_rig_0001:heart_r_arm_ClavicleSHJnt/heart_0002_rig_0001:heart_r_arm_ShoulderSHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_spine_01SHJnt/heart_0002_rig_0001:heart_r_arm_ClavicleSHJnt/heart_0002_rig_0001:heart_r_arm_ShoulderSHJnt/heart_0002_rig_0001:heart_r_arm_ElbowSHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_spine_01SHJnt/heart_0002_rig_0001:heart_r_arm_ClavicleSHJnt/heart_0002_rig_0001:heart_r_arm_ShoulderSHJnt/heart_0002_rig_0001:heart_r_arm_ElbowSHJnt/heart_0002_rig_0001:heart_r_arm_WristSHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_spine_01SHJnt/heart_0002_rig_0001:heart_r_arm_ClavicleSHJnt/heart_0002_rig_0001:heart_r_arm_ShoulderSHJnt/heart_0002_rig_0001:heart_r_arm_ElbowSHJnt/heart_0002_rig_0001:heart_r_arm_WristSHJnt/heart_0002_rig_0001:heart_r_finger_01_01SHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_spine_01SHJnt/heart_0002_rig_0001:heart_r_arm_ClavicleSHJnt/heart_0002_rig_0001:heart_r_arm_ShoulderSHJnt/heart_0002_rig_0001:heart_r_arm_ElbowSHJnt/heart_0002_rig_0001:heart_r_arm_WristSHJnt/heart_0002_rig_0001:heart_r_finger_01_01SHJnt/heart_0002_rig_0001:heart_r_finger_01_02SHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_spine_01SHJnt/heart_0002_rig_0001:heart_r_arm_ClavicleSHJnt/heart_0002_rig_0001:heart_r_arm_ShoulderSHJnt/heart_0002_rig_0001:heart_r_arm_ElbowSHJnt/heart_0002_rig_0001:heart_r_arm_WristSHJnt/heart_0002_rig_0001:heart_r_finger_02_01SHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_spine_01SHJnt/heart_0002_rig_0001:heart_r_arm_ClavicleSHJnt/heart_0002_rig_0001:heart_r_arm_ShoulderSHJnt/heart_0002_rig_0001:heart_r_arm_ElbowSHJnt/heart_0002_rig_0001:heart_r_arm_WristSHJnt/heart_0002_rig_0001:heart_r_finger_02_01SHJnt/heart_0002_rig_0001:heart_r_finger_02_02SHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_spine_01SHJnt/heart_0002_rig_0001:heart_r_arm_ClavicleSHJnt/heart_0002_rig_0001:heart_r_arm_ShoulderSHJnt/heart_0002_rig_0001:heart_r_arm_ElbowSHJnt/heart_0002_rig_0001:heart_r_arm_WristSHJnt/heart_0002_rig_0001:heart_r_finger_03_01SHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_spine_01SHJnt/heart_0002_rig_0001:heart_r_arm_ClavicleSHJnt/heart_0002_rig_0001:heart_r_arm_ShoulderSHJnt/heart_0002_rig_0001:heart_r_arm_ElbowSHJnt/heart_0002_rig_0001:heart_r_arm_WristSHJnt/heart_0002_rig_0001:heart_r_finger_03_01SHJnt/heart_0002_rig_0001:heart_r_finger_03_02SHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_spine_01SHJnt/heart_0002_rig_0001:heart_r_arm_ClavicleSHJnt/heart_0002_rig_0001:heart_r_arm_ShoulderSHJnt/heart_0002_rig_0001:heart_r_arm_ElbowSHJnt/heart_0002_rig_0001:heart_r_arm_WristSHJnt/heart_0002_rig_0001:heart_r_finger_04_01SHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_spine_01SHJnt/heart_0002_rig_0001:heart_r_arm_ClavicleSHJnt/heart_0002_rig_0001:heart_r_arm_ShoulderSHJnt/heart_0002_rig_0001:heart_r_arm_ElbowSHJnt/heart_0002_rig_0001:heart_r_arm_WristSHJnt/heart_0002_rig_0001:heart_r_finger_04_01SHJnt/heart_0002_rig_0001:heart_r_finger_04_02SHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:heart/heart_0002_rig_0001:heart_SHJntGrp/heart_0002_rig_0001:heart_ROOTSHJnt/heart_0002_rig_0001:heart_spine_01SHJnt/heart_0002_rig_0001:heart_spine_TopSHJnt
+        weight: 1
+      - path: heart_0002_rig_0001:L_eye
+        weight: 1
+      - path: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:group1
+        weight: 1
+      - path: heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:polySurface13
+        weight: 1
+      - path: heart_0002_rig_0001:R_eye2
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_COG
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_ConnectorGrp
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_ConnectorGrp/heart_0002_rig_0001:RRM_l_legs_Ankle_RRM_l_legs_Ball_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_ConnectorGrp/heart_0002_rig_0001:RRM_l_legs_Ankle_RRM_l_legs_Ball_AimLctr/heart_0002_rig_0001:RRM_l_legs_Ankle_RRM_l_legs_Ball_TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_ConnectorGrp/heart_0002_rig_0001:RRM_l_legs_Ankle_RRM_l_legs_BallCtrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_ConnectorGrp/heart_0002_rig_0001:RRM_l_legs_Ball_RRM_l_legs_Toe_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_ConnectorGrp/heart_0002_rig_0001:RRM_l_legs_Ball_RRM_l_legs_Toe_AimLctr/heart_0002_rig_0001:RRM_l_legs_Ball_RRM_l_legs_Toe_TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_ConnectorGrp/heart_0002_rig_0001:RRM_l_legs_Ball_RRM_l_legs_ToeCtrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_ConnectorGrp/heart_0002_rig_0001:RRM_l_legs_Hip_RRM_l_legs_Knee_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_ConnectorGrp/heart_0002_rig_0001:RRM_l_legs_Hip_RRM_l_legs_Knee_AimLctr/heart_0002_rig_0001:RRM_l_legs_Hip_RRM_l_legs_Knee_TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_ConnectorGrp/heart_0002_rig_0001:RRM_l_legs_Hip_RRM_l_legs_KneeCtrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_ConnectorGrp/heart_0002_rig_0001:RRM_l_legs_Knee_RRM_l_legs_Ankle_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_ConnectorGrp/heart_0002_rig_0001:RRM_l_legs_Knee_RRM_l_legs_Ankle_AimLctr/heart_0002_rig_0001:RRM_l_legs_Knee_RRM_l_legs_Ankle_TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_ConnectorGrp/heart_0002_rig_0001:RRM_l_legs_Knee_RRM_l_legs_AnkleCtrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_ConnectorGrp/heart_0002_rig_0001:RRM_l_legs_Parent_RRM_l_legs_Hip_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_ConnectorGrp/heart_0002_rig_0001:RRM_l_legs_Parent_RRM_l_legs_Hip_AimLctr/heart_0002_rig_0001:RRM_l_legs_Parent_RRM_l_legs_Hip_TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_ConnectorGrp/heart_0002_rig_0001:RRM_l_legs_Parent_RRM_l_legs_HipCtrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_ConnectorGrp/heart_0002_rig_0001:RRM_ROOT_RRM_l_legs_Parent_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_ConnectorGrp/heart_0002_rig_0001:RRM_ROOT_RRM_l_legs_Parent_AimLctr/heart_0002_rig_0001:RRM_ROOT_RRM_l_legs_Parent_TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_ConnectorGrp/heart_0002_rig_0001:RRM_ROOT_RRM_l_legs_ParentCtrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_Parent
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_Parent/heart_0002_rig_0001:RRM_l_legs_GroundGrp2
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_Parent/heart_0002_rig_0001:RRM_l_legs_GroundGrp2/heart_0002_rig_0001:RRM_l_legs_GroundGrp
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_Parent/heart_0002_rig_0001:RRM_l_legs_GroundGrp2/heart_0002_rig_0001:RRM_l_legs_GroundGrp/heart_0002_rig_0001:RRM_l_legs_Ground
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_Parent/heart_0002_rig_0001:RRM_l_legs_GroundGrp2/heart_0002_rig_0001:RRM_l_legs_GroundGrp/heart_0002_rig_0001:RRM_l_legs_Ground/heart_0002_rig_0001:RRM_l_legs_AnkleGrp
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_Parent/heart_0002_rig_0001:RRM_l_legs_GroundGrp2/heart_0002_rig_0001:RRM_l_legs_GroundGrp/heart_0002_rig_0001:RRM_l_legs_Ground/heart_0002_rig_0001:RRM_l_legs_AnkleGrp/heart_0002_rig_0001:RRM_l_legs_Ankle
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_Parent/heart_0002_rig_0001:RRM_l_legs_GroundGrp2/heart_0002_rig_0001:RRM_l_legs_GroundGrp/heart_0002_rig_0001:RRM_l_legs_Ground/heart_0002_rig_0001:RRM_l_legs_Ball
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_Parent/heart_0002_rig_0001:RRM_l_legs_GroundGrp2/heart_0002_rig_0001:RRM_l_legs_GroundGrp/heart_0002_rig_0001:RRM_l_legs_Ground/heart_0002_rig_0001:RRM_l_legs_FootLeftTilt
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_Parent/heart_0002_rig_0001:RRM_l_legs_GroundGrp2/heart_0002_rig_0001:RRM_l_legs_GroundGrp/heart_0002_rig_0001:RRM_l_legs_Ground/heart_0002_rig_0001:RRM_l_legs_FootRightTilt
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_Parent/heart_0002_rig_0001:RRM_l_legs_GroundGrp2/heart_0002_rig_0001:RRM_l_legs_GroundGrp/heart_0002_rig_0001:RRM_l_legs_Ground/heart_0002_rig_0001:RRM_l_legs_HeelPivot
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_Parent/heart_0002_rig_0001:RRM_l_legs_GroundGrp2/heart_0002_rig_0001:RRM_l_legs_GroundGrp/heart_0002_rig_0001:RRM_l_legs_Ground/heart_0002_rig_0001:RRM_l_legs_Toe
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_Parent/heart_0002_rig_0001:RRM_l_legs_HipGrp
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_Parent/heart_0002_rig_0001:RRM_l_legs_HipGrp/heart_0002_rig_0001:RRM_l_legs_Hip
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_Parent/heart_0002_rig_0001:RRM_l_legs_HipGrp/heart_0002_rig_0001:RRM_l_legs_Hip/heart_0002_rig_0001:RRM_l_legs_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_Parent/heart_0002_rig_0001:RRM_l_legs_HipGrp/heart_0002_rig_0001:RRM_l_legs_Hip/heart_0002_rig_0001:RRM_l_legs_AimLctr/heart_0002_rig_0001:RRM_l_legs_KneeAimLctrGrp
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_Parent/heart_0002_rig_0001:RRM_l_legs_HipGrp/heart_0002_rig_0001:RRM_l_legs_Hip/heart_0002_rig_0001:RRM_l_legs_AimLctr/heart_0002_rig_0001:RRM_l_legs_KneeAimLctrGrp/heart_0002_rig_0001:RRM_l_legs_KneeAimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_Parent/heart_0002_rig_0001:RRM_l_legs_KneeGrp
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_l_legs/heart_0002_rig_0001:RRM_l_legs_Parent/heart_0002_rig_0001:RRM_l_legs_KneeGrp/heart_0002_rig_0001:RRM_l_legs_Knee
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_ConnectorGrp
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_ConnectorGrp/heart_0002_rig_0001:RRM_r_legs_Ankle_RRM_r_legs_Ball_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_ConnectorGrp/heart_0002_rig_0001:RRM_r_legs_Ankle_RRM_r_legs_Ball_AimLctr/heart_0002_rig_0001:RRM_r_legs_Ankle_RRM_r_legs_Ball_TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_ConnectorGrp/heart_0002_rig_0001:RRM_r_legs_Ankle_RRM_r_legs_BallCtrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_ConnectorGrp/heart_0002_rig_0001:RRM_r_legs_Ball_RRM_r_legs_Toe_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_ConnectorGrp/heart_0002_rig_0001:RRM_r_legs_Ball_RRM_r_legs_Toe_AimLctr/heart_0002_rig_0001:RRM_r_legs_Ball_RRM_r_legs_Toe_TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_ConnectorGrp/heart_0002_rig_0001:RRM_r_legs_Ball_RRM_r_legs_ToeCtrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_ConnectorGrp/heart_0002_rig_0001:RRM_r_legs_Hip_RRM_r_legs_Knee_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_ConnectorGrp/heart_0002_rig_0001:RRM_r_legs_Hip_RRM_r_legs_Knee_AimLctr/heart_0002_rig_0001:RRM_r_legs_Hip_RRM_r_legs_Knee_TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_ConnectorGrp/heart_0002_rig_0001:RRM_r_legs_Hip_RRM_r_legs_KneeCtrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_ConnectorGrp/heart_0002_rig_0001:RRM_r_legs_Knee_RRM_r_legs_Ankle_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_ConnectorGrp/heart_0002_rig_0001:RRM_r_legs_Knee_RRM_r_legs_Ankle_AimLctr/heart_0002_rig_0001:RRM_r_legs_Knee_RRM_r_legs_Ankle_TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_ConnectorGrp/heart_0002_rig_0001:RRM_r_legs_Knee_RRM_r_legs_AnkleCtrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_ConnectorGrp/heart_0002_rig_0001:RRM_r_legs_Parent_RRM_r_legs_Hip_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_ConnectorGrp/heart_0002_rig_0001:RRM_r_legs_Parent_RRM_r_legs_Hip_AimLctr/heart_0002_rig_0001:RRM_r_legs_Parent_RRM_r_legs_Hip_TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_ConnectorGrp/heart_0002_rig_0001:RRM_r_legs_Parent_RRM_r_legs_HipCtrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_ConnectorGrp/heart_0002_rig_0001:RRM_ROOT_RRM_r_legs_Parent_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_ConnectorGrp/heart_0002_rig_0001:RRM_ROOT_RRM_r_legs_Parent_AimLctr/heart_0002_rig_0001:RRM_ROOT_RRM_r_legs_Parent_TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_ConnectorGrp/heart_0002_rig_0001:RRM_ROOT_RRM_r_legs_ParentCtrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_Parent
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_Parent/heart_0002_rig_0001:RRM_r_legs_GroundGrp2
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_Parent/heart_0002_rig_0001:RRM_r_legs_GroundGrp2/heart_0002_rig_0001:RRM_r_legs_GroundGrp
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_Parent/heart_0002_rig_0001:RRM_r_legs_GroundGrp2/heart_0002_rig_0001:RRM_r_legs_GroundGrp/heart_0002_rig_0001:RRM_r_legs_Ground
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_Parent/heart_0002_rig_0001:RRM_r_legs_GroundGrp2/heart_0002_rig_0001:RRM_r_legs_GroundGrp/heart_0002_rig_0001:RRM_r_legs_Ground/heart_0002_rig_0001:RRM_r_legs_AnkleGrp
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_Parent/heart_0002_rig_0001:RRM_r_legs_GroundGrp2/heart_0002_rig_0001:RRM_r_legs_GroundGrp/heart_0002_rig_0001:RRM_r_legs_Ground/heart_0002_rig_0001:RRM_r_legs_AnkleGrp/heart_0002_rig_0001:RRM_r_legs_Ankle
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_Parent/heart_0002_rig_0001:RRM_r_legs_GroundGrp2/heart_0002_rig_0001:RRM_r_legs_GroundGrp/heart_0002_rig_0001:RRM_r_legs_Ground/heart_0002_rig_0001:RRM_r_legs_Ball
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_Parent/heart_0002_rig_0001:RRM_r_legs_GroundGrp2/heart_0002_rig_0001:RRM_r_legs_GroundGrp/heart_0002_rig_0001:RRM_r_legs_Ground/heart_0002_rig_0001:RRM_r_legs_FootLeftTilt
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_Parent/heart_0002_rig_0001:RRM_r_legs_GroundGrp2/heart_0002_rig_0001:RRM_r_legs_GroundGrp/heart_0002_rig_0001:RRM_r_legs_Ground/heart_0002_rig_0001:RRM_r_legs_FootRightTilt
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_Parent/heart_0002_rig_0001:RRM_r_legs_GroundGrp2/heart_0002_rig_0001:RRM_r_legs_GroundGrp/heart_0002_rig_0001:RRM_r_legs_Ground/heart_0002_rig_0001:RRM_r_legs_HeelPivot
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_Parent/heart_0002_rig_0001:RRM_r_legs_GroundGrp2/heart_0002_rig_0001:RRM_r_legs_GroundGrp/heart_0002_rig_0001:RRM_r_legs_Ground/heart_0002_rig_0001:RRM_r_legs_Toe
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_Parent/heart_0002_rig_0001:RRM_r_legs_HipGrp
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_Parent/heart_0002_rig_0001:RRM_r_legs_HipGrp/heart_0002_rig_0001:RRM_r_legs_Hip
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_Parent/heart_0002_rig_0001:RRM_r_legs_HipGrp/heart_0002_rig_0001:RRM_r_legs_Hip/heart_0002_rig_0001:RRM_r_legs_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_Parent/heart_0002_rig_0001:RRM_r_legs_HipGrp/heart_0002_rig_0001:RRM_r_legs_Hip/heart_0002_rig_0001:RRM_r_legs_AimLctr/heart_0002_rig_0001:RRM_r_legs_KneeAimLctrGrp
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_Parent/heart_0002_rig_0001:RRM_r_legs_HipGrp/heart_0002_rig_0001:RRM_r_legs_Hip/heart_0002_rig_0001:RRM_r_legs_AimLctr/heart_0002_rig_0001:RRM_r_legs_KneeAimLctrGrp/heart_0002_rig_0001:RRM_r_legs_KneeAimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_Parent/heart_0002_rig_0001:RRM_r_legs_KneeGrp
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_legs/heart_0002_rig_0001:RRM_r_legs/heart_0002_rig_0001:RRM_r_legs_Parent/heart_0002_rig_0001:RRM_r_legs_KneeGrp/heart_0002_rig_0001:RRM_r_legs_Knee
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_ConnectorGrp
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_ConnectorGrp/heart_0002_rig_0001:RRM_ROOT_RRM_spine_Parent_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_ConnectorGrp/heart_0002_rig_0001:RRM_ROOT_RRM_spine_Parent_AimLctr/heart_0002_rig_0001:RRM_ROOT_RRM_spine_Parent_TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_ConnectorGrp/heart_0002_rig_0001:RRM_ROOT_RRM_spine_ParentCtrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_ConnectorGrp/heart_0002_rig_0001:RRM_spine_Parent_RRM_spine_01_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_ConnectorGrp/heart_0002_rig_0001:RRM_spine_Parent_RRM_spine_01_AimLctr/heart_0002_rig_0001:RRM_spine_Parent_RRM_spine_01_TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_ConnectorGrp/heart_0002_rig_0001:RRM_spine_Parent_RRM_spine_01Ctrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_ConnectorGrp
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_ConnectorGrp/heart_0002_rig_0001:RRM_l_arm_Clavicle_RRM_l_arm_Shoulder_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_ConnectorGrp/heart_0002_rig_0001:RRM_l_arm_Clavicle_RRM_l_arm_Shoulder_AimLctr/heart_0002_rig_0001:RRM_l_arm_Clavicle_RRM_l_arm_Shoulder_TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_ConnectorGrp/heart_0002_rig_0001:RRM_l_arm_Clavicle_RRM_l_arm_ShoulderCtrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_ConnectorGrp/heart_0002_rig_0001:RRM_l_arm_Elbow_RRM_l_arm_Wrist_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_ConnectorGrp/heart_0002_rig_0001:RRM_l_arm_Elbow_RRM_l_arm_Wrist_AimLctr/heart_0002_rig_0001:RRM_l_arm_Elbow_RRM_l_arm_Wrist_TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_ConnectorGrp/heart_0002_rig_0001:RRM_l_arm_Elbow_RRM_l_arm_WristCtrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_ConnectorGrp/heart_0002_rig_0001:RRM_l_arm_Parent_RRM_l_arm_Clavicle_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_ConnectorGrp/heart_0002_rig_0001:RRM_l_arm_Parent_RRM_l_arm_Clavicle_AimLctr/heart_0002_rig_0001:RRM_l_arm_Parent_RRM_l_arm_Clavicle_TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_ConnectorGrp/heart_0002_rig_0001:RRM_l_arm_Parent_RRM_l_arm_ClavicleCtrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_ConnectorGrp/heart_0002_rig_0001:RRM_l_arm_Shoulder_RRM_l_arm_Elbow_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_ConnectorGrp/heart_0002_rig_0001:RRM_l_arm_Shoulder_RRM_l_arm_Elbow_AimLctr/heart_0002_rig_0001:RRM_l_arm_Shoulder_RRM_l_arm_Elbow_TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_ConnectorGrp/heart_0002_rig_0001:RRM_l_arm_Shoulder_RRM_l_arm_ElbowCtrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_ConnectorGrp/heart_0002_rig_0001:RRM_spine_01_RRM_l_arm_Parent_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_ConnectorGrp/heart_0002_rig_0001:RRM_spine_01_RRM_l_arm_Parent_AimLctr/heart_0002_rig_0001:RRM_spine_01_RRM_l_arm_Parent_TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_ConnectorGrp/heart_0002_rig_0001:RRM_spine_01_RRM_l_arm_ParentCtrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_ClavicleGrp
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_ClavicleGrp/heart_0002_rig_0001:RRM_l_arm_Clavicle
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_ElbowGrp
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_ElbowGrp/heart_0002_rig_0001:RRM_l_arm_Elbow
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_ShoulderGrp
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_ShoulderGrp/heart_0002_rig_0001:RRM_l_arm_Shoulder
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_ShoulderGrp/heart_0002_rig_0001:RRM_l_arm_Shoulder/heart_0002_rig_0001:RRM_l_arm_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_ShoulderGrp/heart_0002_rig_0001:RRM_l_arm_Shoulder/heart_0002_rig_0001:RRM_l_arm_AimLctr/heart_0002_rig_0001:RRM_l_arm_ElbowAimLctrGrp
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_ShoulderGrp/heart_0002_rig_0001:RRM_l_arm_Shoulder/heart_0002_rig_0001:RRM_l_arm_AimLctr/heart_0002_rig_0001:RRM_l_arm_ElbowAimLctrGrp/heart_0002_rig_0001:RRM_l_arm_ElbowAimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_ConnectorGrp
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_ConnectorGrp/heart_0002_rig_0001:RRM_l_arm_Wrist_RRM_l_finger_Parent_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_ConnectorGrp/heart_0002_rig_0001:RRM_l_arm_Wrist_RRM_l_finger_Parent_AimLctr/heart_0002_rig_0001:RRM_l_arm_Wrist_RRM_l_finger_Parent_TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_ConnectorGrp/heart_0002_rig_0001:RRM_l_arm_Wrist_RRM_l_finger_ParentCtrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_ConnectorGrp/heart_0002_rig_0001:RRM_l_finger_01__RRM_l_finger_01_02_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_ConnectorGrp/heart_0002_rig_0001:RRM_l_finger_01__RRM_l_finger_01_02_AimLctr/heart_0002_rig_0001:RRM_l_finger_01__RRM_l_finger_01_02_TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_ConnectorGrp/heart_0002_rig_0001:RRM_l_finger_01__RRM_l_finger_01_02Ctrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_ConnectorGrp/heart_0002_rig_0001:RRM_l_finger_02__RRM_l_finger_02_02_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_ConnectorGrp/heart_0002_rig_0001:RRM_l_finger_02__RRM_l_finger_02_02_AimLctr/heart_0002_rig_0001:RRM_l_finger_02__RRM_l_finger_02_02_TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_ConnectorGrp/heart_0002_rig_0001:RRM_l_finger_02__RRM_l_finger_02_02Ctrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_ConnectorGrp/heart_0002_rig_0001:RRM_l_finger_03__RRM_l_finger_03_02_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_ConnectorGrp/heart_0002_rig_0001:RRM_l_finger_03__RRM_l_finger_03_02_AimLctr/heart_0002_rig_0001:RRM_l_finger_03__RRM_l_finger_03_02_TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_ConnectorGrp/heart_0002_rig_0001:RRM_l_finger_03__RRM_l_finger_03_02Ctrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_ConnectorGrp/heart_0002_rig_0001:RRM_l_finger_04__RRM_l_finger_04_02_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_ConnectorGrp/heart_0002_rig_0001:RRM_l_finger_04__RRM_l_finger_04_02_AimLctr/heart_0002_rig_0001:RRM_l_finger_04__RRM_l_finger_04_02_TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_ConnectorGrp/heart_0002_rig_0001:RRM_l_finger_04__RRM_l_finger_04_02Ctrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_ConnectorGrp/heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_01__AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_ConnectorGrp/heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_01__AimLctr/heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_01__TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_ConnectorGrp/heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_01_Ctrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_ConnectorGrp/heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_02__AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_ConnectorGrp/heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_02__AimLctr/heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_02__TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_ConnectorGrp/heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_02_Ctrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_ConnectorGrp/heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_03__AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_ConnectorGrp/heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_03__AimLctr/heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_03__TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_ConnectorGrp/heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_03_Ctrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_ConnectorGrp/heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_04__AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_ConnectorGrp/heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_04__AimLctr/heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_04__TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_ConnectorGrp/heart_0002_rig_0001:RRM_l_finger_Parent_RRM_l_finger_04_Ctrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_Parent
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_Parent/heart_0002_rig_0001:RRM_l_finger_Grp
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_Parent/heart_0002_rig_0001:RRM_l_finger_Grp/heart_0002_rig_0001:RRM_l_finger_01_01
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_Parent/heart_0002_rig_0001:RRM_l_finger_Grp/heart_0002_rig_0001:RRM_l_finger_01_01/heart_0002_rig_0001:RRM_l_finger_01_02
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_Parent/heart_0002_rig_0001:RRM_l_finger_Grp/heart_0002_rig_0001:RRM_l_finger_02_01
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_Parent/heart_0002_rig_0001:RRM_l_finger_Grp/heart_0002_rig_0001:RRM_l_finger_02_01/heart_0002_rig_0001:RRM_l_finger_02_02
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_Parent/heart_0002_rig_0001:RRM_l_finger_Grp/heart_0002_rig_0001:RRM_l_finger_03_01
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_Parent/heart_0002_rig_0001:RRM_l_finger_Grp/heart_0002_rig_0001:RRM_l_finger_03_01/heart_0002_rig_0001:RRM_l_finger_03_02
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_Parent/heart_0002_rig_0001:RRM_l_finger_Grp/heart_0002_rig_0001:RRM_l_finger_04_01
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_l_finger/heart_0002_rig_0001:RRM_l_finger_Parent/heart_0002_rig_0001:RRM_l_finger_Grp/heart_0002_rig_0001:RRM_l_finger_04_01/heart_0002_rig_0001:RRM_l_finger_04_02
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_ConnectorGrp
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_ConnectorGrp/heart_0002_rig_0001:RRM_r_arm_Wrist_RRM_r_finger_Parent_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_ConnectorGrp/heart_0002_rig_0001:RRM_r_arm_Wrist_RRM_r_finger_Parent_AimLctr/heart_0002_rig_0001:RRM_r_arm_Wrist_RRM_r_finger_Parent_TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_ConnectorGrp/heart_0002_rig_0001:RRM_r_arm_Wrist_RRM_r_finger_ParentCtrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_ConnectorGrp/heart_0002_rig_0001:RRM_r_finger_01__RRM_r_finger_01_02_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_ConnectorGrp/heart_0002_rig_0001:RRM_r_finger_01__RRM_r_finger_01_02_AimLctr/heart_0002_rig_0001:RRM_r_finger_01__RRM_r_finger_01_02_TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_ConnectorGrp/heart_0002_rig_0001:RRM_r_finger_01__RRM_r_finger_01_02Ctrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_ConnectorGrp/heart_0002_rig_0001:RRM_r_finger_02__RRM_r_finger_02_02_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_ConnectorGrp/heart_0002_rig_0001:RRM_r_finger_02__RRM_r_finger_02_02_AimLctr/heart_0002_rig_0001:RRM_r_finger_02__RRM_r_finger_02_02_TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_ConnectorGrp/heart_0002_rig_0001:RRM_r_finger_02__RRM_r_finger_02_02Ctrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_ConnectorGrp/heart_0002_rig_0001:RRM_r_finger_03__RRM_r_finger_03_02_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_ConnectorGrp/heart_0002_rig_0001:RRM_r_finger_03__RRM_r_finger_03_02_AimLctr/heart_0002_rig_0001:RRM_r_finger_03__RRM_r_finger_03_02_TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_ConnectorGrp/heart_0002_rig_0001:RRM_r_finger_03__RRM_r_finger_03_02Ctrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_ConnectorGrp/heart_0002_rig_0001:RRM_r_finger_04__RRM_r_finger_04_02_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_ConnectorGrp/heart_0002_rig_0001:RRM_r_finger_04__RRM_r_finger_04_02_AimLctr/heart_0002_rig_0001:RRM_r_finger_04__RRM_r_finger_04_02_TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_ConnectorGrp/heart_0002_rig_0001:RRM_r_finger_04__RRM_r_finger_04_02Ctrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_ConnectorGrp/heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_01__AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_ConnectorGrp/heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_01__AimLctr/heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_01__TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_ConnectorGrp/heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_01_Ctrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_ConnectorGrp/heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_02__AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_ConnectorGrp/heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_02__AimLctr/heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_02__TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_ConnectorGrp/heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_02_Ctrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_ConnectorGrp/heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_03__AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_ConnectorGrp/heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_03__AimLctr/heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_03__TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_ConnectorGrp/heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_03_Ctrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_ConnectorGrp/heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_04__AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_ConnectorGrp/heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_04__AimLctr/heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_04__TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_ConnectorGrp/heart_0002_rig_0001:RRM_r_finger_Parent_RRM_r_finger_04_Ctrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_Parent
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_Parent/heart_0002_rig_0001:RRM_r_finger_Grp
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_Parent/heart_0002_rig_0001:RRM_r_finger_Grp/heart_0002_rig_0001:RRM_r_finger_01_01
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_Parent/heart_0002_rig_0001:RRM_r_finger_Grp/heart_0002_rig_0001:RRM_r_finger_01_01/heart_0002_rig_0001:RRM_r_finger_01_02
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_Parent/heart_0002_rig_0001:RRM_r_finger_Grp/heart_0002_rig_0001:RRM_r_finger_02_01
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_Parent/heart_0002_rig_0001:RRM_r_finger_Grp/heart_0002_rig_0001:RRM_r_finger_02_01/heart_0002_rig_0001:RRM_r_finger_02_02
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_Parent/heart_0002_rig_0001:RRM_r_finger_Grp/heart_0002_rig_0001:RRM_r_finger_03_01
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_Parent/heart_0002_rig_0001:RRM_r_finger_Grp/heart_0002_rig_0001:RRM_r_finger_03_01/heart_0002_rig_0001:RRM_r_finger_03_02
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_Parent/heart_0002_rig_0001:RRM_r_finger_Grp/heart_0002_rig_0001:RRM_r_finger_04_01
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_l_arm/heart_0002_rig_0001:RRM_l_arm_Parent/heart_0002_rig_0001:RRM_l_arm_WristGrp/heart_0002_rig_0001:RRM_l_arm_Wrist/heart_0002_rig_0001:RRM_finger/heart_0002_rig_0001:RRM_r_finger/heart_0002_rig_0001:RRM_r_finger_Parent/heart_0002_rig_0001:RRM_r_finger_Grp/heart_0002_rig_0001:RRM_r_finger_04_01/heart_0002_rig_0001:RRM_r_finger_04_02
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_r_arm
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_r_arm/heart_0002_rig_0001:RRM_r_arm_ConnectorGrp
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_r_arm/heart_0002_rig_0001:RRM_r_arm_ConnectorGrp/heart_0002_rig_0001:RRM_r_arm_Clavicle_RRM_r_arm_Shoulder_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_r_arm/heart_0002_rig_0001:RRM_r_arm_ConnectorGrp/heart_0002_rig_0001:RRM_r_arm_Clavicle_RRM_r_arm_Shoulder_AimLctr/heart_0002_rig_0001:RRM_r_arm_Clavicle_RRM_r_arm_Shoulder_TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_r_arm/heart_0002_rig_0001:RRM_r_arm_ConnectorGrp/heart_0002_rig_0001:RRM_r_arm_Clavicle_RRM_r_arm_ShoulderCtrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_r_arm/heart_0002_rig_0001:RRM_r_arm_ConnectorGrp/heart_0002_rig_0001:RRM_r_arm_Elbow_RRM_r_arm_Wrist_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_r_arm/heart_0002_rig_0001:RRM_r_arm_ConnectorGrp/heart_0002_rig_0001:RRM_r_arm_Elbow_RRM_r_arm_Wrist_AimLctr/heart_0002_rig_0001:RRM_r_arm_Elbow_RRM_r_arm_Wrist_TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_r_arm/heart_0002_rig_0001:RRM_r_arm_ConnectorGrp/heart_0002_rig_0001:RRM_r_arm_Elbow_RRM_r_arm_WristCtrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_r_arm/heart_0002_rig_0001:RRM_r_arm_ConnectorGrp/heart_0002_rig_0001:RRM_r_arm_Parent_RRM_r_arm_Clavicle_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_r_arm/heart_0002_rig_0001:RRM_r_arm_ConnectorGrp/heart_0002_rig_0001:RRM_r_arm_Parent_RRM_r_arm_Clavicle_AimLctr/heart_0002_rig_0001:RRM_r_arm_Parent_RRM_r_arm_Clavicle_TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_r_arm/heart_0002_rig_0001:RRM_r_arm_ConnectorGrp/heart_0002_rig_0001:RRM_r_arm_Parent_RRM_r_arm_ClavicleCtrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_r_arm/heart_0002_rig_0001:RRM_r_arm_ConnectorGrp/heart_0002_rig_0001:RRM_r_arm_Shoulder_RRM_r_arm_Elbow_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_r_arm/heart_0002_rig_0001:RRM_r_arm_ConnectorGrp/heart_0002_rig_0001:RRM_r_arm_Shoulder_RRM_r_arm_Elbow_AimLctr/heart_0002_rig_0001:RRM_r_arm_Shoulder_RRM_r_arm_Elbow_TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_r_arm/heart_0002_rig_0001:RRM_r_arm_ConnectorGrp/heart_0002_rig_0001:RRM_r_arm_Shoulder_RRM_r_arm_ElbowCtrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_r_arm/heart_0002_rig_0001:RRM_r_arm_ConnectorGrp/heart_0002_rig_0001:RRM_spine_01_RRM_r_arm_Parent_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_r_arm/heart_0002_rig_0001:RRM_r_arm_ConnectorGrp/heart_0002_rig_0001:RRM_spine_01_RRM_r_arm_Parent_AimLctr/heart_0002_rig_0001:RRM_spine_01_RRM_r_arm_Parent_TargetLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_r_arm/heart_0002_rig_0001:RRM_r_arm_ConnectorGrp/heart_0002_rig_0001:RRM_spine_01_RRM_r_arm_ParentCtrl
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_r_arm/heart_0002_rig_0001:RRM_r_arm_Parent
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_r_arm/heart_0002_rig_0001:RRM_r_arm_Parent/heart_0002_rig_0001:RRM_r_arm_ClavicleGrp
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_r_arm/heart_0002_rig_0001:RRM_r_arm_Parent/heart_0002_rig_0001:RRM_r_arm_ClavicleGrp/heart_0002_rig_0001:RRM_r_arm_Clavicle
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_r_arm/heart_0002_rig_0001:RRM_r_arm_Parent/heart_0002_rig_0001:RRM_r_arm_ElbowGrp
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_r_arm/heart_0002_rig_0001:RRM_r_arm_Parent/heart_0002_rig_0001:RRM_r_arm_ElbowGrp/heart_0002_rig_0001:RRM_r_arm_Elbow
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_r_arm/heart_0002_rig_0001:RRM_r_arm_Parent/heart_0002_rig_0001:RRM_r_arm_ShoulderGrp
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_r_arm/heart_0002_rig_0001:RRM_r_arm_Parent/heart_0002_rig_0001:RRM_r_arm_ShoulderGrp/heart_0002_rig_0001:RRM_r_arm_Shoulder
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_r_arm/heart_0002_rig_0001:RRM_r_arm_Parent/heart_0002_rig_0001:RRM_r_arm_ShoulderGrp/heart_0002_rig_0001:RRM_r_arm_Shoulder/heart_0002_rig_0001:RRM_r_arm_AimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_r_arm/heart_0002_rig_0001:RRM_r_arm_Parent/heart_0002_rig_0001:RRM_r_arm_ShoulderGrp/heart_0002_rig_0001:RRM_r_arm_Shoulder/heart_0002_rig_0001:RRM_r_arm_AimLctr/heart_0002_rig_0001:RRM_r_arm_ElbowAimLctrGrp
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_r_arm/heart_0002_rig_0001:RRM_r_arm_Parent/heart_0002_rig_0001:RRM_r_arm_ShoulderGrp/heart_0002_rig_0001:RRM_r_arm_Shoulder/heart_0002_rig_0001:RRM_r_arm_AimLctr/heart_0002_rig_0001:RRM_r_arm_ElbowAimLctrGrp/heart_0002_rig_0001:RRM_r_arm_ElbowAimLctr
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_r_arm/heart_0002_rig_0001:RRM_r_arm_Parent/heart_0002_rig_0001:RRM_r_arm_WristGrp
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_01Grp/heart_0002_rig_0001:RRM_spine_01/heart_0002_rig_0001:RRM_arm/heart_0002_rig_0001:RRM_r_arm/heart_0002_rig_0001:RRM_r_arm_Parent/heart_0002_rig_0001:RRM_r_arm_WristGrp/heart_0002_rig_0001:RRM_r_arm_Wrist
+        weight: 1
+      - path: heart_0002_rig_0001:RRM_MAIN/heart_0002_rig_0001:RRM_ROOT/heart_0002_rig_0001:RRM_spine/heart_0002_rig_0001:RRM_spine_Parent/heart_0002_rig_0001:RRM_spine_Top
+        weight: 1
+      - path: heart_0002_rig_0001:teeth_down_grp_02
+        weight: 1
+      - path: heart_0002_rig_0001:teeth_down_grp_02/heart_0002_rig_0001:cc_teeth
+        weight: 1
+      - path: heart_0002_rig_0001:teeth_down_grp_02/heart_0002_rig_0001:cc_teeth/heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube9
+        weight: 1
+      - path: heart_0002_rig_0001:teeth_down_grp_02/heart_0002_rig_0001:cc_teeth/heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube10
+        weight: 1
+      - path: heart_0002_rig_0001:teeth_down_grp_02/heart_0002_rig_0001:cc_teeth/heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube11
+        weight: 1
+      - path: heart_0002_rig_0001:teeth_grp_02
+        weight: 1
+      - path: heart_0002_rig_0001:teeth_grp_02/heart_0002_rig_0001:teeth_ctrl
+        weight: 1
+      - path: heart_0002_rig_0001:teeth_grp_02/heart_0002_rig_0001:teeth_ctrl/heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube1
+        weight: 1
+      - path: heart_0002_rig_0001:teeth_grp_02/heart_0002_rig_0001:teeth_ctrl/heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube2
+        weight: 1
+      - path: heart_0002_rig_0001:teeth_grp_02/heart_0002_rig_0001:teeth_ctrl/heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube3
+        weight: 1
+      - path: heart_0002_rig_0001:teeth_grp_02/heart_0002_rig_0001:teeth_ctrl/heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube4
+        weight: 1
+      - path: heart_0002_rig_0001:teeth_grp_02/heart_0002_rig_0001:teeth_ctrl/heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube5
+        weight: 1
+      - path: heart_0002_rig_0001:teeth_grp_02/heart_0002_rig_0001:teeth_ctrl/heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube6
+        weight: 1
+      - path: heart_0002_rig_0001:teeth_grp_02/heart_0002_rig_0001:teeth_ctrl/heart_0002_rig_0001:other_mesh_heart:v001_0001:v001_0001:v001:pCube7
+        weight: 1
+      - path: stick:nurbsCircle2
+        weight: 1
+      - path: stick:nurbsCircle2/stick:nurbsCircle1
+        weight: 1
+      - path: stick:nurbsCircle2/stick:nurbsCircle1/stick:pTorus1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: heartbreak
+  assetBundleVariant: 
