@@ -153,7 +153,7 @@ public class UnitStateMachine : BaseUnit, IPointerClickHandler
             selector.SetActive(false);
 
             // Change the color to grey (or play death animations?).
-            gameObject.GetComponent<MeshRenderer>().material.color = new Color32(105, 105, 105, 255);
+            gameObject.SetActive(false);
 
             // Clean up the actionQueue.
             if (BSM.enemiesInBattle.Count > 0)
