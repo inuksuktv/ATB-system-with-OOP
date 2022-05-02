@@ -5,11 +5,31 @@ using UnityEngine;
 [System.Serializable]
 public class AttackHandler
 {
-    public string attackerName;
-    public string attackDescription;
+    // ENCAPSULATION
+    private string m_attackerName;
+    public string attackerName {
+        get { return m_attackerName; }
+        set {
+            if (value.Length > 12) {
+                Debug.Log("attackerName limit is 15 characters.");
+            } else {
+                m_attackerName = value;
+            }
+        }
+    }
 
-    // Enemy or hero attacker. Skipped this data by using tags instead, I think.
-    // public string type
+    private string m_attackDescription;
+    public string attackDescription
+    {
+        get { return m_attackDescription; }
+        set {
+            if (value.Length > 24) {
+                Debug.Log("attackDescription limit is 30 characters.");
+            } else {
+                m_attackDescription = value;
+            }
+        }
+    }
 
     // The attacker.
     public GameObject attackerGameObject;
